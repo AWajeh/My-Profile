@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>document.documentElement.classList.add('js');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WAjeh — QA Engineer</title>
+<meta name="description" content="WAjeh — QA Engineer specializing in manual testing, test automation and API testing. Portfolio of projects, skills and contact info.">
+<meta name="theme-color" content="#060a08">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="WAjeh — QA Engineer">
+<meta property="og:description" content="QA Engineer specializing in manual testing, test automation and API testing.">
+
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="matrix-canvas" aria-hidden="true"></canvas>
+<div class="scanlines" aria-hidden="true"></div>
+
+<!-- NAV -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-prompt">wajeh@qa</span><span class="brand-tilde">:~$</span>
+      <span class="brand-cursor">_</span>
+    </a>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home" class="nav-link" data-nav>./home</a>
+      <a href="#about" class="nav-link" data-nav>./about</a>
+      <a href="#skills" class="nav-link" data-nav>./skills</a>
+      <a href="#projects" class="nav-link" data-nav>./projects</a>
+      <a href="#contact" class="nav-link" data-nav>./contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero section">
+    <div class="hero-inner">
+
+      <div class="hero-text reveal">
+        <p class="hero-kicker">&gt; whoami</p>
+        <h1 class="hero-name">WAjeh<span class="blink-cursor">_</span></h1>
+        <h2 class="hero-role"><span id="typed-role"></span><span class="type-cursor">|</span></h2>
+        <p class="hero-tagline">I break software before it reaches production. Detail-obsessed QA Engineer turning bugs into build-passes.</p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="assets/CV.pdf" class="btn btn-ghost" download>Download CV ↓</a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://www.instagram.com/awajeh.1?utm_source=qr" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/wajeh-amash-962924424/" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="8" y1="11" x2="8" y2="16"/><line x1="8" y1="8" x2="8" y2="8"/><line x1="12" y1="16" x2="12" y2="11"/><path d="M12 13c0-1.1.9-2 2-2s2 .9 2 2v3"/></svg>
+          </a>
+          <a href="mailto:amashwajeh5@gmail.com" class="icon-btn" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="avatar-ring">
+          <div class="avatar-ring-spin"></div>
+          <img src="assets/profile.jpg" alt="WAjeh portrait" class="avatar-img">
+        </div>
+
+        <div class="terminal-card" id="terminal-card">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="terminal-title">test-runner — zsh</span>
+          </div>
+          <pre class="terminal-body" id="terminal-body" aria-hidden="true"></pre>
+        </div>
+      </div>
+
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll to About section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <p class="section-kicker reveal">&gt; cat about.txt</p>
+      <h2 class="section-title reveal">About Me</h2>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Detail-oriented <strong>QA Engineer</strong> with a passion for hunting down bugs before users ever
+            see them. I combine sharp manual-testing intuition with automation efficiency to help teams ship
+            reliable software, faster.
+          </p>
+          <p>
+            From writing airtight test cases and exploratory test charters to building Selenium and API test
+            suites wired into CI pipelines, I treat quality as a feature — not an afterthought. I thrive in
+            Agile teams where testing starts on day one, not the day before release.
+          </p>
+        </div>
+
+        <div class="about-code reveal">
+          <div class="code-window">
+            <div class="terminal-bar">
+              <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+              <span class="terminal-title">profile.json</span>
+            </div>
+            <pre class="code-body"><code><span class="tok-brace">{</span>
+  <span class="tok-key">"name"</span>: <span class="tok-str">"WAjeh"</span>,
+  <span class="tok-key">"role"</span>: <span class="tok-str">"QA Engineer"</span>,
+  <span class="tok-key">"focus"</span>: [<span class="tok-str">"Manual Testing"</span>, <span class="tok-str">"Automation"</span>, <span class="tok-str">"API Testing"</span>],
+  <span class="tok-key">"tools"</span>: [<span class="tok-str">"Selenium"</span>, <span class="tok-str">"Postman"</span>, <span class="tok-str">"JIRA"</span>],
+  <span class="tok-key">"languages"</span>: [<span class="tok-str">"Python"</span>, <span class="tok-str">"C#"</span>, <span class="tok-str">"C++"</span>, <span class="tok-str">"SQL"</span>],
+  <span class="tok-key">"certification"</span>: <span class="tok-str">"Technological Certification — Systems Planning &amp; Programming"</span>,
+  <span class="tok-key">"based_in"</span>: <span class="tok-str">"Jordan"</span>,
+  <span class="tok-key">"status"</span>: <span class="tok-str tok-status">"Available for opportunities"</span>
+<span class="tok-brace">}</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-inner">
+      <p class="section-kicker reveal">&gt; ls ./skills</p>
+      <h2 class="section-title reveal">Skills &amp; Tools</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> Manual Testing</h3>
+          <ul class="skill-list">
+            <li>Test Case Design</li>
+            <li>Exploratory Testing</li>
+            <li>Regression Testing</li>
+            <li>Bug Reporting &amp; Tracking</li>
+            <li>Requirements Analysis</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> Automation</h3>
+          <ul class="skill-list">
+            <li>Selenium WebDriver</li>
+            <li>Cypress</li>
+            <li>Appium</li>
+            <li>TestNG / JUnit</li>
+            <li>Page Object Model</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> API &amp; Backend</h3>
+          <ul class="skill-list">
+            <li>Postman</li>
+            <li>REST API Testing</li>
+            <li>Newman / CI Integration</li>
+            <li>SQL &amp; DB Validation</li>
+            <li>JSON Schema Validation</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> Tools &amp; Practices</h3>
+          <ul class="skill-list">
+            <li>JIRA &amp; TestRail</li>
+            <li>Git &amp; GitHub</li>
+            <li>Jenkins CI/CD</li>
+            <li>Agile / Scrum</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> Programming &amp; Databases</h3>
+          <ul class="skill-list">
+            <li>Python</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>SQL &amp; Databases</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> Game Server Development</h3>
+          <ul class="skill-list">
+            <li>FiveM Server Development</li>
+            <li>Lua Scripting</li>
+            <li>Server Configuration &amp; Deployment</li>
+            <li>Custom Resources &amp; Scripts</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <p class="section-kicker reveal">&gt; ls ./projects</p>
+      <h2 class="section-title reveal">Projects</h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="status-badge status-pass">LIVE</span>
+          </div>
+          <div class="project-body">
+            <h3>OmniConvert Pro</h3>
+            <p>Free, browser-based file conversion platform supporting 50+ formats — documents, images, audio and video, up to 100MB — through a drag-and-drop interface. Files are processed client-side and auto-deleted after conversion for privacy.</p>
+            <div class="tags">
+              <span>JavaScript</span><span>Web App</span><span>File Conversion</span><span>Client-side Processing</span>
+            </div>
+            <div class="project-links">
+              <span class="link-pending">Source · not published yet</span>
+              <a href="https://omniconvert-pro.website/" target="_blank" rel="noopener noreferrer" aria-label="View live site">Live Site ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="status-badge status-pass">LIVE</span>
+          </div>
+          <div class="project-body">
+            <h3>Quiz &amp; Assessment System</h3>
+            <p>Interactive multiple-choice exam platform with a countdown timer, instant score calculation and a final results report. Full CRUD for questions, attempts and results.</p>
+            <div class="tags">
+              <span>JavaScript</span><span>React</span><span>Node.js</span><span>PHP</span><span>MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/AWajeh/quiz-app" target="_blank" rel="noopener noreferrer" aria-label="View source code">Source ↗</a>
+              <a href="https://quiz-app-snym.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="View live demo">Live Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="status-badge status-pass">LIVE</span>
+          </div>
+          <div class="project-body">
+            <h3>Live Analytics &amp; API Dashboard</h3>
+            <p>Real-time dashboard connecting to an external API to display live game server status and data, with Discord OAuth2 login to automatically show each user's rank and permissions.</p>
+            <div class="tags">
+              <span>React</span><span>REST APIs</span><span>OAuth2</span><span>Discord API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/AWajeh/live-dashboard" target="_blank" rel="noopener noreferrer" aria-label="View source code">Source ↗</a>
+              <a href="https://live-dashboard-wajeh.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="View live demo">Live Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card project-card-empty reveal">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          </div>
+          <div class="project-body project-empty-body">
+            <p class="project-empty-text">$ git clone next-project<span class="blink-cursor">_</span></p>
+            <p class="project-empty-sub">More projects coming soon.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-inner">
+      <p class="section-kicker reveal">&gt; whoami --contact</p>
+      <h2 class="section-title reveal">Let's Connect</h2>
+      <p class="contact-sub reveal">Open to new opportunities, collabs, or just talking shop about QA. Reach out on any channel below.</p>
+
+      <div class="contact-grid reveal">
+        <a href="https://www.instagram.com/awajeh.1?utm_source=qr" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          <span class="contact-label">Instagram</span>
+          <span class="contact-value">@awajeh.1</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/wajeh-amash-962924424/" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="8" y1="11" x2="8" y2="16"/><line x1="8" y1="8" x2="8" y2="8"/><line x1="12" y1="16" x2="12" y2="11"/><path d="M12 13c0-1.1.9-2 2-2s2 .9 2 2v3"/></svg>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">Connect with me</span>
+        </a>
+
+        <a href="mailto:amashwajeh5@gmail.com" class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">amashwajeh5@gmail.com</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer-line">wajeh@qa-engineer:~$ echo "Thanks for stopping by" <span class="blink-cursor">_</span></p>
+  <p class="footer-copy">© <span id="year"></span> WAjeh. Built with HTML, CSS &amp; JS.</p>
+</footer>
+
+<button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
