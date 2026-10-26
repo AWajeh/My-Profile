@@ -505,7 +505,7 @@ html.js .reveal.is-visible {
   place-items: center;
   overflow: hidden;
   background: var(--surface-2);
-  border: 1px dashed var(--green-dim);
+  border: 1px solid var(--green-dim);
   border-radius: var(--radius);
   color: var(--text-faint);
   font-size: 0.78rem;
