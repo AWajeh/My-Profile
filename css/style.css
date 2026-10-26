@@ -474,6 +474,11 @@ html.js .reveal.is-visible {
   font-size: 1rem;
 }
 .about-text strong { color: var(--green-bright); }
+.about-text a {
+  color: var(--green);
+  border-bottom: 1px dashed var(--green-dim);
+}
+.about-text a:hover { color: var(--green-bright); }
 
 .code-window {
   background: var(--surface);
@@ -657,7 +662,7 @@ html.js .reveal.is-visible {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 22px;
 }
 
