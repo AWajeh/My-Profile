@@ -522,6 +522,15 @@ html.js .reveal.is-visible {
   font-size: 0.85rem;
   color: var(--text-dim);
 }
+.game-note {
+  margin: 14px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-soft);
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: var(--text-faint);
+}
+.game-note strong { color: var(--amber); font-weight: 600; }
 .btn-disabled,
 .btn-disabled:hover {
   opacity: 0.55;
