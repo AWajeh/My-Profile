@@ -480,6 +480,56 @@ html.js .reveal.is-visible {
 }
 .about-text a:hover { color: var(--green-bright); }
 
+/* ---------- game download card ---------- */
+.game-card {
+  margin-top: 28px;
+  padding: 26px 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+.game-card:hover {
+  border-color: var(--green-dim);
+  box-shadow: 0 0 26px rgba(57,255,136,0.08);
+}
+.game-logo {
+  width: 104px;
+  height: 104px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: var(--surface-2);
+  border: 1px dashed var(--green-dim);
+  border-radius: var(--radius);
+  color: var(--text-faint);
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+}
+.game-logo img { width: 100%; height: 100%; object-fit: cover; }
+.game-title {
+  margin: 6px 0 0;
+  font-size: 1.15rem;
+  color: var(--green-bright);
+}
+.game-sub {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+.btn-disabled,
+.btn-disabled:hover {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
 .code-window {
   background: var(--surface);
   border: 1px solid var(--border);
