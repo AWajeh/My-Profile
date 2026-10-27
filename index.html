@@ -125,12 +125,36 @@
             where I sell FiveM scripts, custom Discord bots and server setup, plus templates, planners and other digital downloads.
           </p>
 
-          <!-- GAME DOWNLOAD CARD (placeholder): swap the LOGO span for an <img> and turn the disabled button into a download link when the files are ready -->
+          <!-- GAME DOWNLOAD CARD: installers are hosted as assets of the lastlie-v0.1-beta GitHub release -->
           <div class="game-card reveal" id="game-card">
             <div class="game-logo"><img src="assets/last-lie-logo.jpg" alt="Last Lie game logo" width="104" height="104" loading="lazy"></div>
             <h3 class="game-title">Last Lie Beta</h3>
             <p class="game-sub">A game I built myself</p>
-            <span class="btn btn-primary btn-disabled" aria-disabled="true">Download Beta ↓ · coming soon</span>
+            <div class="game-downloads" style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:12px 0;">
+              <a href="https://github.com/AWajeh/My-Profile/releases/download/lastlie-v0.1-beta/LastLie-Setup.exe" class="btn btn-primary" download>Download for Windows ↓</a>
+              <a href="https://github.com/AWajeh/My-Profile/releases/download/lastlie-v0.1-beta/LastLie-Setup.run" class="btn btn-ghost" download>Download for Linux ↓</a>
+            </div>
+            <details class="game-install" style="text-align:left;margin:8px 0 12px;line-height:1.6;">
+              <summary style="cursor:pointer;font-weight:700;">How to install</summary>
+              <div style="margin-top:10px;">
+                <p><strong>Windows</strong></p>
+                <ol style="padding-left:20px;margin:6px 0 12px;">
+                  <li>Download <code>LastLie-Setup.exe</code> and double-click it.</li>
+                  <li>If a blue <strong>Windows SmartScreen</strong> window appears, click <strong>More info</strong> → <strong>Run anyway</strong> (expected for an unsigned early build).</li>
+                  <li>Choose a language (Arabic / English), then <strong>Next</strong> → <strong>Install</strong>. No admin rights needed.</li>
+                  <li>Launch the game from the desktop or Start menu shortcut.</li>
+                </ol>
+                <p style="margin:0 0 12px;">To uninstall: Settings → Apps → Last Lie → Uninstall.</p>
+                <p><strong>Linux</strong></p>
+                <ol style="padding-left:20px;margin:6px 0 12px;">
+                  <li>Download <code>LastLie-Setup.run</code>.</li>
+                  <li>Open a terminal in the download folder and run:<br><code>chmod +x LastLie-Setup.run &amp;&amp; ./LastLie-Setup.run</code></li>
+                  <li>Launch the game from your app menu, the desktop icon, or by typing <code>lastlie</code>. No <code>sudo</code> needed.</li>
+                </ol>
+                <p style="margin:0 0 12px;">To uninstall: <code>~/.local/share/lastlie/uninstall.sh</code></p>
+                <p style="margin:0;"><strong>Playing together:</strong> every player needs the same version. Join with the same code in <strong>ONLINE</strong>, or the portwarp address in <strong>LAN / DIRECT IP</strong>.</p>
+              </div>
+            </details>
             <p class="game-note"><strong>Early build.</strong> The game is playable, but it has no official code-signing certificate yet, so Windows or your antivirus may flag it as unknown or suspicious. That is expected for an independent early release. After the final release, the game will be published on Steam.</p>
           </div>
         </div>
