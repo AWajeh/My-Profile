@@ -4,13 +4,13 @@
 <script>document.documentElement.classList.add('js');</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WAjeh — QA Engineer</title>
-<meta name="description" content="WAjeh — QA Engineer specializing in manual testing, test automation and API testing. Portfolio of projects, skills and contact info.">
+<title>WAjeh — Junior QA Engineer</title>
+<meta name="description" content="WAjeh — Junior QA Engineer: manual testing, test design and bug reporting with Jira and TestRail. QA projects on Android, iOS and the web.">
 <meta name="theme-color" content="#060a08">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="WAjeh — QA Engineer">
-<meta property="og:description" content="QA Engineer specializing in manual testing, test automation and API testing.">
+<meta property="og:title" content="WAjeh — Junior QA Engineer">
+<meta property="og:description" content="Junior QA Engineer: manual testing, test design and bug reporting. QA projects on Android, iOS and the web.">
 
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 
@@ -39,6 +39,7 @@
       <a href="#skills" class="nav-link" data-nav>./skills</a>
       <a href="#projects" class="nav-link" data-nav>./projects</a>
       <a href="#contact" class="nav-link" data-nav>./contact</a>
+      <a href="#games" class="nav-link" data-nav>./games</a>
     </nav>
 
     <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
@@ -57,7 +58,7 @@
         <p class="hero-kicker">&gt; whoami</p>
         <h1 class="hero-name">WAjeh<span class="blink-cursor">_</span></h1>
         <h2 class="hero-role"><span id="typed-role"></span><span class="type-cursor">|</span></h2>
-        <p class="hero-tagline">I break software before it reaches production. Detail-obsessed QA Engineer turning bugs into build-passes.</p>
+        <p class="hero-tagline">I break software before it reaches production. Detail-obsessed junior QA engineer who turns bugs into clear, reproducible reports.</p>
 
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -110,23 +111,26 @@
       <div class="about-grid">
         <div class="about-text reveal">
           <p>
-            Detail-oriented <strong>QA Engineer</strong> with a passion for hunting down bugs before users ever
-            see them. I combine sharp manual-testing intuition with automation efficiency to help teams ship
-            reliable software, faster.
+            Detail-oriented <strong>Junior QA Engineer</strong> with hands-on experience from two full testing
+            projects — a mobile app and an e-commerce website. I design and run test cases, report bugs with clear
+            reproduction steps and screenshots, and manage the work in <strong>Jira</strong> and <strong>TestRail</strong>.
           </p>
           <p>
-            From writing airtight test cases and exploratory test charters to building Selenium and API test
-            suites wired into CI pipelines, I treat quality as a feature — not an afterthought. I thrive in
-            Agile teams where testing starts on day one, not the day before release.
+            For the <strong>Wolt</strong> app I wrote and ran 480 test cases on Android and on a real iPhone, and documented
+            55 bugs, including the differences between the two platforms. I'm studying Software Testing at The Automation
+            College — the manual QA stage is done, and <strong>test automation</strong> (Selenium, Playwright, Cypress) is the next stage.
           </p>
           <p>
-            Outside of QA, I'm also a <strong>digital products seller</strong>. I run
+            Outside of QA I run
             <a href="https://www.etsy.com/shop/AwajehLabs" target="_blank" rel="noopener noreferrer">AwajehLabs on Etsy</a>,
-            where I sell FiveM scripts, custom Discord bots and server setup, plus templates, planners and other digital downloads.
+            a digital products store (FiveM scripts, Discord bots and server setup, templates). I'm a gamer, and I like where
+            programming and games meet — and e-commerce.
           </p>
+        </div>
 
-          <!-- GAME DOWNLOAD CARD: installers live in /downloads -->
-          <div class="game-card reveal" id="game-card">
+        <!-- old placement of the game card (moved to the Games section at the end of the page) -->
+        <template data-hidden="moved-game-card">
+          <div class="game-card reveal" id="game-card-old">
             <div class="game-logo"><img src="assets/last-lie-logo.jpg" alt="Last Lie game logo" width="104" height="104" loading="lazy"></div>
             <h3 class="game-title">Last Lie Beta</h3>
             <p class="game-sub">A game I built myself</p>
@@ -156,7 +160,7 @@
             </details>
             <p class="game-note"><strong>Early build.</strong> The game is playable, but it has no official code-signing certificate yet, so Windows or your antivirus may flag it as unknown or suspicious. That is expected for an independent early release. After the final release, the game will be published on Steam.</p>
           </div>
-        </div>
+        </template>
 
         <div class="about-code reveal">
           <div class="code-window">
@@ -166,10 +170,12 @@
             </div>
             <pre class="code-body"><code><span class="tok-brace">{</span>
   <span class="tok-key">"name"</span>: <span class="tok-str">"WAjeh"</span>,
-  <span class="tok-key">"role"</span>: <span class="tok-str">"QA Engineer"</span>,
-  <span class="tok-key">"focus"</span>: [<span class="tok-str">"Manual Testing"</span>, <span class="tok-str">"Automation"</span>, <span class="tok-str">"API Testing"</span>],
-  <span class="tok-key">"tools"</span>: [<span class="tok-str">"Selenium"</span>, <span class="tok-str">"Postman"</span>, <span class="tok-str">"JIRA"</span>],
-  <span class="tok-key">"languages"</span>: [<span class="tok-str">"Python"</span>, <span class="tok-str">"C#"</span>, <span class="tok-str">"C++"</span>, <span class="tok-str">"SQL"</span>],
+  <span class="tok-key">"role"</span>: <span class="tok-str">"Junior QA Engineer"</span>,
+  <span class="tok-key">"focus"</span>: [<span class="tok-str">"Manual Testing"</span>, <span class="tok-str">"Functional &amp; Regression"</span>, <span class="tok-str">"Bug Reporting"</span>],
+  <span class="tok-key">"tools"</span>: [<span class="tok-str">"Jira"</span>, <span class="tok-str">"TestRail"</span>, <span class="tok-str">"Postman"</span>, <span class="tok-str">"Git"</span>],
+  <span class="tok-key">"languages"</span>: [<span class="tok-str">"C#"</span>, <span class="tok-str">"SQL"</span>, <span class="tok-str">"Python (beginner)"</span>, <span class="tok-str">"HTML/CSS"</span>],
+  <span class="tok-key">"studying"</span>: <span class="tok-str">"Software Testing — The Automation College"</span>,
+  <span class="tok-key">"next"</span>: <span class="tok-str">"Test Automation (Selenium, Playwright, Cypress)"</span>,
   <span class="tok-key">"certification"</span>: <span class="tok-str">"Technological Certification — Systems Planning &amp; Programming"</span>,
   <span class="tok-key">"based_in"</span>: <span class="tok-str">"Israel"</span>,
   <span class="tok-key">"also"</span>: <span class="tok-str">"Digital products seller (AwajehLabs on Etsy)"</span>,
@@ -193,13 +199,26 @@
           <h3 class="skill-cat"><span class="cat-prompt">#</span> Manual Testing</h3>
           <ul class="skill-list">
             <li>Test Case Design</li>
-            <li>Exploratory Testing</li>
-            <li>Regression Testing</li>
+            <li>Functional &amp; Regression Testing</li>
+            <li>Negative &amp; Edge-Case Testing</li>
+            <li>Localization &amp; RTL Testing</li>
+            <li>Android / iOS Comparison</li>
             <li>Bug Reporting &amp; Tracking</li>
-            <li>Requirements Analysis</li>
           </ul>
         </div>
 
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> Test Automation — next stage</h3>
+          <ul class="skill-list">
+            <li>Selenium</li>
+            <li>Playwright</li>
+            <li>Cypress</li>
+            <li>Coming up in my course at The Automation College</li>
+          </ul>
+        </div>
+
+        <!-- Hidden until the automation stage of the course; restore by unwrapping the <template>. -->
+        <template data-hidden="automation">
         <div class="skill-card reveal">
           <h3 class="skill-cat"><span class="cat-prompt">#</span> Automation</h3>
           <ul class="skill-list">
@@ -241,6 +260,27 @@
             <li>SQL &amp; Databases</li>
           </ul>
         </div>
+        </template>
+
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> Tools</h3>
+          <ul class="skill-list">
+            <li>Jira</li>
+            <li>TestRail</li>
+            <li>Postman</li>
+            <li>Git &amp; GitHub</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> Programming &amp; Databases</h3>
+          <ul class="skill-list">
+            <li>C# — good</li>
+            <li>SQL — good</li>
+            <li>Python — beginner</li>
+            <li>HTML &amp; CSS</li>
+          </ul>
+        </div>
 
         <div class="skill-card reveal">
           <h3 class="skill-cat"><span class="cat-prompt">#</span> Web Development</h3>
@@ -276,9 +316,11 @@
 
       </div>
 
+      <template data-hidden="automation">
       <p class="skills-more reveal">
         <a href="https://awajeh.github.io/ai-skills-showcase/" target="_blank" rel="noopener noreferrer">→ See my AI &amp; LLM engineering skills in detail</a>
       </p>
+      </template>
     </div>
   </section>
 
@@ -289,6 +331,40 @@
       <h2 class="section-title reveal">Projects</h2>
 
       <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="status-badge status-pass">STR · 480 CASES</span>
+          </div>
+          <div class="project-body">
+            <h3>Wolt — Mobile App QA</h3>
+            <p>Full manual QA project for the Wolt delivery app on two platforms: Android (BlueStacks) and a real iPhone 17 Pro Max. 480 test cases in TestRail, 55 bugs documented in Jira with steps and screenshots, and a comparison of what breaks on Android vs. iOS. Delivered as a bilingual Software Test Report.</p>
+            <div class="tags">
+              <span>Manual Testing</span><span>Android</span><span>iOS</span><span>Localization / RTL</span><span>TestRail</span><span>Jira</span>
+            </div>
+            <div class="project-links">
+              <span class="link-pending">Software Test Report · October 2026</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="status-badge status-pass">STR · 208 CASES</span>
+          </div>
+          <div class="project-body">
+            <h3>Machsanei Hashmal — E-Commerce QA</h3>
+            <p>Manual QA project for an Israeli e-commerce website: 208 test cases across 21 functional sections — browsing, cart, coupons, checkout and payment methods. Defects documented in Jira and the regression run managed in TestRail.</p>
+            <div class="tags">
+              <span>Manual Testing</span><span>E-Commerce</span><span>Regression</span><span>TestRail</span><span>Jira</span>
+            </div>
+            <div class="project-links">
+              <span class="link-pending">Software Test Report · October 2026</span>
+            </div>
+          </div>
+        </article>
 
         <article class="project-card reveal">
           <div class="terminal-bar">
@@ -361,6 +437,8 @@
           </div>
         </article>
 
+        <!-- Automation projects: hidden until the automation stage of the course; restore by unwrapping the <template>. -->
+        <template data-hidden="automation">
         <article class="project-card reveal">
           <div class="terminal-bar">
             <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
@@ -430,6 +508,7 @@
             </div>
           </div>
         </article>
+        </template>
 
       </div>
     </div>
@@ -466,6 +545,60 @@
           <span class="contact-label">Email</span>
           <span class="contact-value">amashwajeh5@gmail.com</span>
         </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GAMES: installers live in /downloads -->
+  <section id="games" class="section">
+    <div class="section-inner">
+      <p class="section-kicker reveal">&gt; ls ./games</p>
+      <h2 class="section-title reveal">Games</h2>
+      <p class="contact-sub reveal">Side projects where gaming and programming meet.</p>
+
+      <div class="games-grid">
+
+        <div class="game-card reveal" id="game-card">
+          <div class="game-logo"><img src="assets/last-lie-logo.jpg" alt="Last Lie game logo" width="104" height="104" loading="lazy"></div>
+          <h3 class="game-title">Last Lie Beta</h3>
+          <p class="game-sub">Built with AI assistance</p>
+          <div class="game-downloads">
+            <a href="downloads/LastLie-Setup.exe" class="btn btn-primary" download style="color:#04120a;">Download for Windows ↓</a>
+            <a href="downloads/LastLie-Setup.run" class="btn btn-ghost" download>Download for Linux ↓</a>
+          </div>
+          <details class="game-install">
+            <summary>How to install</summary>
+            <div>
+              <p><strong>Windows</strong></p>
+              <ol>
+                <li>Download <code>LastLie-Setup.exe</code> and double-click it.</li>
+                <li>If a blue <strong>Windows SmartScreen</strong> window appears, click <strong>More info</strong> → <strong>Run anyway</strong> (expected for an unsigned early build).</li>
+                <li>Choose a language (Arabic / English), then <strong>Next</strong> → <strong>Install</strong>. No admin rights needed.</li>
+                <li>Launch the game from the desktop or Start menu shortcut.</li>
+              </ol>
+              <p>To uninstall: Settings → Apps → Last Lie → Uninstall.</p>
+              <p><strong>Linux</strong></p>
+              <ol>
+                <li>Download <code>LastLie-Setup.run</code>.</li>
+                <li>Open a terminal in the download folder and run:<br><code>chmod +x LastLie-Setup.run &amp;&amp; ./LastLie-Setup.run</code></li>
+                <li>Launch the game from your app menu, the desktop icon, or by typing <code>lastlie</code>. No <code>sudo</code> needed.</li>
+              </ol>
+              <p>To uninstall: <code>~/.local/share/lastlie/uninstall.sh</code></p>
+            </div>
+          </details>
+          <p class="game-note"><strong>Early build, made with AI assistance.</strong> The game is playable, but it has no official code-signing certificate yet, so Windows or your antivirus may flag it as unknown or suspicious. That is expected for an independent early release. After the final release, the game will be published on Steam.</p>
+        </div>
+
+        <div class="game-card game-card-soon reveal" id="web-game-card">
+          <div class="game-logo">WEB GAME</div>
+          <h3 class="game-title">Web Game</h3>
+          <p class="game-sub">Coming soon — playable in the browser</p>
+          <div class="game-downloads">
+            <span class="btn btn-ghost btn-disabled" aria-disabled="true">Play in browser · soon</span>
+          </div>
+          <p class="game-note"><strong>In development.</strong> A browser game I'm working on. It will be playable right here, with no download, once it's ready.</p>
+        </div>
+
       </div>
     </div>
   </section>

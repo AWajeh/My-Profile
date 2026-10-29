@@ -87,7 +87,7 @@
   }
 
   /* ---------- hero role typing effect ---------- */
-  var roles = ["QA Engineer", "Bug Hunter", "Test Automation Enthusiast", "Quality Advocate"];
+  var roles = ["Junior QA Engineer", "Manual Tester", "Bug Hunter", "Quality Advocate"];
   var typedEl = document.getElementById("typed-role");
 
   function typeLoop() {
@@ -129,14 +129,13 @@
   /* ---------- terminal test-run simulation ---------- */
   var terminalBody = document.getElementById("terminal-body");
   var terminalLines = [
-    { text: "$ npm run test:regression", pause: 500 },
-    { text: "\n✓ Login & Authentication ... PASS", pause: 350 },
-    { text: "\n✓ Cart & Checkout Flow ..... PASS", pause: 350 },
-    { text: "\n✓ API Response Validation .. PASS", pause: 350 },
-    { text: "\n✓ Cross-Browser Suite ...... PASS", pause: 350 },
-    { text: "\n\nTest Suites: 4 passed, 4 total", pause: 250 },
-    { text: "\nCoverage: 96.4%", pause: 250 },
-    { text: "\nStatus: BUILD SUCCESSFUL ✔", pause: 3200 }
+    { text: "$ testrail run --project wolt", pause: 500 },
+    { text: "\n✓ Android (BlueStacks) ...... 480 cases", pause: 350 },
+    { text: "\n✓ iOS (iPhone 17 Pro Max) ... verified", pause: 350 },
+    { text: "\n  Passed 347 · Failed 46 · Blocked 24", pause: 350 },
+    { text: "\n\n$ jira search project=WOLT", pause: 400 },
+    { text: "\n✓ 55 bugs logged with steps & screenshots", pause: 250 },
+    { text: "\nStatus: REPORT DELIVERED ✔", pause: 3200 }
   ];
 
   function runTerminal() {

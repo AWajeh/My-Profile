@@ -531,6 +531,37 @@ html.js .reveal.is-visible {
   color: var(--text-faint);
 }
 .game-note strong { color: var(--amber); font-weight: 600; }
+
+/* ---------- games section ---------- */
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+  align-items: start;
+}
+.games-grid .game-card { margin-top: 0; }
+.game-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 12px 0;
+}
+.game-install {
+  width: 100%;
+  text-align: left;
+  margin: 8px 0 12px;
+  line-height: 1.6;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+.game-install summary { cursor: pointer; font-weight: 700; color: var(--text); }
+.game-install ol { padding-left: 20px; margin: 6px 0 12px; }
+.game-install p { margin: 10px 0 0; }
+.game-card-soon { border-style: dashed; }
+@media (max-width: 860px) {
+  .games-grid { grid-template-columns: 1fr; }
+}
 .btn-disabled,
 .btn-disabled:hover {
   opacity: 0.55;
