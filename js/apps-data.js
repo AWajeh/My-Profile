@@ -15,7 +15,7 @@
    status       "available" | "beta" | "coming-soon" | "in-development"
    featured     true = large showcase card
    logo         square logo image (or null to show logoText)
-   preview      wide preview image for the card
+   preview      optional wide preview image (omit for a compact featured card)
    tagline      one-line summary
    description  card description
    downloads    static downloads [{ label, url, platform, primary }]
@@ -40,8 +40,6 @@ window.APPS = [
     status: "available",
     featured: true,
     logo: "assets/apps/awajeh-3d/logo.png",
-    preview: "assets/apps/awajeh-3d/fujiyama.jpg",
-    previewAlt: "Awajeh 3D Fujiyama Dawn wallpaper: a snow-capped mountain reflected in a lake with a red torii gate and cherry blossoms",
     tagline: "Animated 3D wallpapers for your Windows desktop",
     description:
       "Experience your desktop differently. Awajeh 3D brings immersive animated 3D wallpapers, interactive desktop widgets, customizable shortcut docks, and advanced desktop personalization into one application.",
