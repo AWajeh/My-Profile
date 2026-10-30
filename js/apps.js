@@ -83,7 +83,7 @@
           class: "btn " + (d.primary ? "btn-primary" : "btn-ghost"),
           href: d.url,
           download: true,
-          "aria-label": d.label.replace(/[↓]/g, "").trim() + " — " + app.name,
+          "aria-label": d.label.replace(/[↓]/g, "").trim() + " — " + app.name + (d.size ? " (" + d.size + ")" : ""),
           text: d.label
         })
       );
@@ -279,7 +279,7 @@
     if (d.install && d.install.length) {
       content.appendChild(section("Installation", el("ol", { class: "app-d-list app-d-steps" }, d.install.map(function (s) { return el("li", { html: s }); }))));
     }
-    var ver = app.resolvedVersion ? "Latest version: v" + app.resolvedVersion + (app.releaseDate ? " · released " + new Date(app.releaseDate).toLocaleDateString() : "") : "Version " + versionText(app) + " · release in preparation";
+    var ver = app.resolvedVersion ? "Latest version: v" + app.resolvedVersion + (app.releaseDate ? " · released " + new Date(app.releaseDate).toLocaleDateString() : "") : (app.status === "available" ? "Latest version: " + versionText(app) : "Version " + versionText(app) + " · release in preparation");
     content.appendChild(section("Download", el("div", null, [el("p", { class: "app-desc", text: ver }), downloadButtons(app)])));
     // the dialog already shows the details, so drop the nested Learn More button
     content.querySelectorAll(".app-more").forEach(function (b) { b.remove(); });

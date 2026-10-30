@@ -37,7 +37,7 @@ window.APPS = [
     platforms: ["Windows 10", "Windows 11"],
     price: "Free",
     version: "1.0.0",
-    status: "coming-soon",
+    status: "available",
     featured: true,
     logo: "assets/apps/awajeh-3d/logo.png",
     preview: "assets/apps/awajeh-3d/fujiyama.jpg",
@@ -45,8 +45,7 @@ window.APPS = [
     tagline: "Animated 3D wallpapers for your Windows desktop",
     description:
       "Experience your desktop differently. Awajeh 3D brings immersive animated 3D wallpapers, interactive desktop widgets, customizable shortcut docks, and advanced desktop personalization into one application.",
-    downloads: [],
-    release: { repo: "AWajeh/Awajeh-3D", asset: "Awajeh3D-Setup.exe", label: "Download for Windows" },
+    downloads: [{ label: "DOWNLOAD FOR WINDOWS ↓", url: "downloads/Awajeh3D-Setup.exe", platform: "Windows", primary: true, size: "79 MB" }],
     details: {
       overview:
         "Awajeh 3D runs real-time 3D scenes directly behind your desktop icons. Every wallpaper is a live Three.js / WebGL environment with its own lighting, camera movement and particles, not a looping video. It also adds a shortcut dock and live widgets, and it automatically pauses when a game or fullscreen app is running.",
