@@ -10,7 +10,26 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="WAjeh — Junior QA Engineer">
-<meta property="og:description" content="Junior QA Engineer: manual testing, test design and bug reporting. QA projects on Android, iOS and the web.">
+<meta property="og:description" content="Junior QA Engineer: manual testing, test design and bug reporting. QA projects on Android, iOS and the web. Home of my apps, including Awajeh 3D — animated 3D wallpapers for Windows.">
+<meta property="og:url" content="https://awajeh.site/">
+<meta property="og:image" content="https://awajeh.site/assets/apps/awajeh-3d/og.jpg">
+<meta property="og:image:alt" content="Awajeh 3D — animated 3D wallpapers for Windows">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://awajeh.site/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Awajeh 3D",
+  "applicationCategory": "DesktopEnhancementApplication",
+  "operatingSystem": "Windows 10, Windows 11",
+  "description": "Immersive animated 3D wallpapers, interactive desktop widgets and customizable shortcut docks for Windows.",
+  "image": "https://awajeh.site/assets/apps/awajeh-3d/fujiyama.jpg",
+  "url": "https://awajeh.site/#app=awajeh-3d",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "author": { "@type": "Person", "name": "WAjeh" }
+}
+</script>
 
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 
@@ -39,7 +58,7 @@
       <a href="#skills" class="nav-link" data-nav>./skills</a>
       <a href="#projects" class="nav-link" data-nav>./projects</a>
       <a href="#contact" class="nav-link" data-nav>./contact</a>
-      <a href="#games" class="nav-link" data-nav>./games</a>
+      <a href="#apps" class="nav-link" data-nav>./apps</a>
     </nav>
 
     <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
@@ -554,56 +573,31 @@
     </div>
   </section>
 
-  <!-- GAMES: installers live in /downloads -->
-  <section id="games" class="section">
+  <!-- MY APPS: cards are generated from js/apps-data.js (installers for Last Lie live in /downloads) -->
+  <section id="apps" class="section apps-section" aria-labelledby="apps-title">
+    <span id="games" class="anchor-alias" aria-hidden="true"></span>
     <div class="section-inner">
-      <p class="section-kicker reveal">&gt; ls ./games</p>
-      <h2 class="section-title reveal">Games</h2>
-      <p class="contact-sub reveal">Side projects where gaming and programming meet.</p>
+      <p class="section-kicker reveal">&gt; ls ./apps</p>
+      <h2 class="section-title apps-title reveal" id="apps-title"><span class="apps-title-glow">MY APPS</span></h2>
+      <p class="contact-sub reveal">Desktop software, games and web projects I build and publish. All free to download.</p>
 
-      <div class="games-grid">
+      <div class="apps-filters reveal" id="apps-filters" role="toolbar" aria-label="Filter apps"></div>
 
-        <div class="game-card reveal" id="game-card">
-          <div class="game-logo"><img src="assets/last-lie-logo.jpg" alt="Last Lie game logo" width="104" height="104" loading="lazy"></div>
-          <h3 class="game-title">Last Lie Beta</h3>
-          <p class="game-sub">Built with AI assistance</p>
-          <div class="game-downloads">
-            <a href="downloads/LastLie-Setup.exe" class="btn btn-primary" download style="color:#04120a;">Download for Windows ↓</a>
-            <a href="downloads/LastLie-Setup.run" class="btn btn-ghost" download>Download for Linux ↓</a>
+      <div class="apps-grid" id="apps-grid">
+        <noscript>
+          <div class="game-card">
+            <h3 class="game-title">Awajeh 3D</h3>
+            <p class="game-sub">Windows Desktop Application</p>
+            <div class="game-downloads"><a href="downloads/Awajeh3D-Setup.exe" class="btn btn-primary" download>Download for Windows ↓</a></div>
           </div>
-          <details class="game-install">
-            <summary>How to install</summary>
-            <div>
-              <p><strong>Windows</strong></p>
-              <ol>
-                <li>Download <code>LastLie-Setup.exe</code> and double-click it.</li>
-                <li>If a blue <strong>Windows SmartScreen</strong> window appears, click <strong>More info</strong> → <strong>Run anyway</strong> (expected for an unsigned early build).</li>
-                <li>Choose a language (Arabic / English), then <strong>Next</strong> → <strong>Install</strong>. No admin rights needed.</li>
-                <li>Launch the game from the desktop or Start menu shortcut.</li>
-              </ol>
-              <p>To uninstall: Settings → Apps → Last Lie → Uninstall.</p>
-              <p><strong>Linux</strong></p>
-              <ol>
-                <li>Download <code>LastLie-Setup.run</code>.</li>
-                <li>Open a terminal in the download folder and run:<br><code>chmod +x LastLie-Setup.run &amp;&amp; ./LastLie-Setup.run</code></li>
-                <li>Launch the game from your app menu, the desktop icon, or by typing <code>lastlie</code>. No <code>sudo</code> needed.</li>
-              </ol>
-              <p>To uninstall: <code>~/.local/share/lastlie/uninstall.sh</code></p>
+          <div class="game-card">
+            <h3 class="game-title">Last Lie Beta</h3>
+            <div class="game-downloads">
+              <a href="downloads/LastLie-Setup.exe" class="btn btn-primary" download>Download for Windows ↓</a>
+              <a href="downloads/LastLie-Setup.run" class="btn btn-ghost" download>Download for Linux ↓</a>
             </div>
-          </details>
-          <p class="game-note"><strong>Early build, made with AI assistance.</strong> The game is playable, but it has no official code-signing certificate yet, so Windows or your antivirus may flag it as unknown or suspicious. That is expected for an independent early release. After the final release, the game will be published on Steam.</p>
-        </div>
-
-        <div class="game-card game-card-soon reveal" id="web-game-card">
-          <div class="game-logo">WEB GAME</div>
-          <h3 class="game-title">Web Game</h3>
-          <p class="game-sub">Coming soon — playable in the browser</p>
-          <div class="game-downloads">
-            <span class="btn btn-ghost btn-disabled" aria-disabled="true">Play in browser · soon</span>
           </div>
-          <p class="game-note"><strong>In development.</strong> A browser game I'm working on. It will be playable right here, with no download, once it's ready.</p>
-        </div>
-
+        </noscript>
       </div>
     </div>
   </section>
@@ -617,6 +611,13 @@
 
 <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
 
+<dialog id="app-dialog" class="app-dialog" aria-labelledby="app-dialog-title">
+  <button type="button" class="app-dialog-close" aria-label="Close details">✕</button>
+  <div class="app-dialog-body"></div>
+</dialog>
+
+<script src="js/apps-data.js"></script>
+<script src="js/apps.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

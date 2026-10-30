@@ -43,3 +43,18 @@ git push -u origin main
 
 Then in the GitHub repo: **Settings → Pages → Source → Deploy from branch → main / (root)**.
 Your site will be live at `https://<your-username>.github.io/<repo-name>/`.
+
+## My Apps section
+
+The **MY APPS** section (`#apps`, old `#games` links still work) is generated from metadata:
+
+- `js/apps-data.js` — one object per app (name, category, platforms, version, status, logo, preview, downloads, details for the *Learn More* dialog). **To publish a new app, add an object here — no HTML changes needed.**
+- `js/apps.js` — renders the cards, filters and the details dialog (`#app=<id>` deep links).
+- `assets/apps/<app-id>/` — logo, previews and the Open Graph image.
+
+### Automatic download switching (GitHub Releases)
+
+An app with a `release: { repo, asset }` entry asks the GitHub API for the repository's latest release.
+If that release contains the named asset (e.g. `Awajeh3D-Setup.exe`), the card shows **DOWNLOAD FOR WINDOWS**
+pointing at the official release asset URL; otherwise it shows **COMING SOON**. The repository must be
+**public** for visitors to download release assets.
