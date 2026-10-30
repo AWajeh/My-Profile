@@ -113,20 +113,20 @@
   }
 
   function featuredCard(app) {
-    var media = el("div", { class: "app-media" }, [
+    var media = !app.preview ? null : el("div", { class: "app-media" }, [
       app.preview ? el("img", { class: "app-preview", src: app.preview, alt: app.previewAlt || app.name + " preview", loading: "lazy", decoding: "async", width: "1600", height: "900" }) : null,
       el("div", { class: "app-media-shade", "aria-hidden": "true" }),
       logo(app, "app-logo app-logo-float")
     ]);
     var body = el("div", { class: "app-body" }, [
       el("p", { class: "app-kicker", text: "$ ./" + app.id + " --featured" }),
-      el("h3", { class: "app-title", text: app.name }),
+      el("div", { class: "app-head" }, [!app.preview ? logo(app, "app-logo app-logo-inline") : null, el("h3", { class: "app-title", text: app.name })]),
       el("p", { class: "app-tagline", text: app.tagline }),
       meta(app),
       el("p", { class: "app-desc", text: app.description }),
       downloadButtons(app)
     ]);
-    return el("article", { class: "app-card app-card-featured reveal", id: "app-" + app.id, "data-kind": app.kind, "aria-labelledby": "app-title-" + app.id }, [media, body]);
+    return el("article", { class: "app-card app-card-featured" + (media ? "" : " no-media") + " reveal", id: "app-" + app.id, "data-kind": app.kind, "aria-labelledby": "app-title-" + app.id }, [media, body]);
   }
 
   function compactCard(app) {

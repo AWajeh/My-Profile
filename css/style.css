@@ -1115,3 +1115,10 @@ html.dialog-open { overflow: hidden; }
   .app-preview, .app-card-featured, .app-dialog[open] { transition: none; animation: none; }
   .app-card-featured:hover .app-preview { transform: scale(1.02); }
 }
+
+/* featured card without a preview image */
+.app-card-featured.no-media { grid-template-columns: 1fr; }
+.app-card-featured.no-media .app-body { padding: 30px 32px 28px; }
+.app-head { display: flex; align-items: center; gap: 16px; }
+.app-logo-inline { width: 72px; height: 72px; border-radius: 18px; border-color: rgba(125, 255, 176, 0.35); background: transparent; }
+.app-card-featured.no-media .app-desc { max-width: 760px; }
