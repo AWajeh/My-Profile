@@ -1,9 +1,9 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "url": "https://awajeh.site/downloads/Awajeh3D-Setup.exe",
   "page": "https://awajeh.site/#app=awajeh-3d",
-  "sha256": "7237c7c72ca687c93344e14b8f20452d252826b0072acaa214b5d13c2af9c3ad",
-  "size": 81057692,
+  "sha256": "bee24f1d811c52ea707277049a385e8e868ae7cdf187af424617891471fcebda",
+  "size": 82738556,
   "releasedAt": "2026-10-30",
-  "notes": "20 live 3D wallpapers: football, programming, cybersecurity, space and nature\nAsset Library: import licensed 3D models and photos\nWallpaper now works on Windows 11 24H2 and on multiple monitors\nKeeps a still wallpaper after quitting\nAutomatic update notifications"
+  "notes": "28 live 3D wallpapers: football, programming, cybersecurity, space, nature, cars, Japan, fantasy, gaming, Palestine and luxury\nAsset Library: import licensed 3D models and photos\nWorks on Windows 11 24H2 and on multiple monitors\nKeeps a still wallpaper after quitting\nAutomatic update notifications"
 }
