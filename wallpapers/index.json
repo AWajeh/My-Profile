@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-31T14:01:38.684Z",
+  "updated": "2026-10-31T14:21:28.637Z",
   "wallpapers": [
     {
       "id": "fujiyama",
@@ -77,7 +77,7 @@
       "url": "https://awajeh.site/wallpapers/fujiyama.aw3d",
       "preview": "https://awajeh.site/wallpapers/fujiyama.jpg",
       "size": 219952,
-      "sha256": "ab373ca9f76a6d0ad12e6eabe11010308adc3aa118b12c65f8f06e4a2ef7b414"
+      "sha256": "6019a80712b94eb7da19202c7b992dbbfa1777fa783d78e06f5802f8458a11c6"
     },
     {
       "id": "cyberpunk",
@@ -144,7 +144,7 @@
       "url": "https://awajeh.site/wallpapers/cyberpunk.aw3d",
       "preview": "https://awajeh.site/wallpapers/cyberpunk.jpg",
       "size": 433539,
-      "sha256": "1dff2d69dc23cc3600e0ed37d1a2d02c5d6d29eb6736ddfe4bca3e50c4dc4d58"
+      "sha256": "f45900d8f8a26a476893c46d403ea09a13ed4c759476d46cba0b8282ca1c0628"
     },
     {
       "id": "deepspace",
@@ -205,7 +205,7 @@
       "url": "https://awajeh.site/wallpapers/deepspace.aw3d",
       "preview": "https://awajeh.site/wallpapers/deepspace.jpg",
       "size": 250908,
-      "sha256": "1522e8f9d1f40d522d99e801b44c8250c8b61f7a5b8113f03cab5a84abf3b001"
+      "sha256": "39cd96d9196e15df1a5316824f6afd5e0ad60f3b641bfec59167150bf1931c49"
     },
     {
       "id": "abstract",
@@ -266,7 +266,7 @@
       "url": "https://awajeh.site/wallpapers/abstract.aw3d",
       "preview": "https://awajeh.site/wallpapers/abstract.jpg",
       "size": 204963,
-      "sha256": "39cac40bb8275e3a7f6d7bd36b0fb1df55c645f83221239bcc4e6a7750ec62a1"
+      "sha256": "3f6be5f9d04ad5b740426671caaeabfbaac195d7f676980aab6d50546e17de6b"
     },
     {
       "id": "stadium-night",
@@ -325,7 +325,7 @@
       "url": "https://awajeh.site/wallpapers/stadium-night.aw3d",
       "preview": "https://awajeh.site/wallpapers/stadium-night.jpg",
       "size": 259416,
-      "sha256": "2b47bf9437443dd8a9d45aaec6bab4362e17ada4851ca1c2b974dd9778f3bca6"
+      "sha256": "daf9f6be8fed2fc28fdf933499daf59a546d6e982b513789e511ec69ca2f8e31"
     },
     {
       "id": "matrix-rain",
@@ -400,7 +400,7 @@
       "url": "https://awajeh.site/wallpapers/matrix-rain.aw3d",
       "preview": "https://awajeh.site/wallpapers/matrix-rain.jpg",
       "size": 399549,
-      "sha256": "00e8f9c00cfd3850542d5af2ecc409cc2b49a2ced3a06a6543dcdc301881bd6a"
+      "sha256": "38b32fdb66fe5f03f13f828fa4052b3cb5126432e68c7a4f7415b610812cba4f"
     },
     {
       "id": "neural-network",
@@ -452,7 +452,7 @@
       "url": "https://awajeh.site/wallpapers/neural-network.aw3d",
       "preview": "https://awajeh.site/wallpapers/neural-network.jpg",
       "size": 170135,
-      "sha256": "8de55e1ef6598018303b141e506042f34bb9428a1a57a445aaab3689db29df50"
+      "sha256": "1d9b649c01511a45db1450d68aaa9d8e1c6f415dd82666695368bcd55301a512"
     },
     {
       "id": "black-hole",
@@ -502,7 +502,7 @@
       "url": "https://awajeh.site/wallpapers/black-hole.aw3d",
       "preview": "https://awajeh.site/wallpapers/black-hole.jpg",
       "size": 217528,
-      "sha256": "0e968631367cb4fb50e1b42bb0deff9a7c8f0905fceb6f47a662df30e1a3ec10"
+      "sha256": "e781f1cdabeaa9e494415b90f2ee63da46eeeaace76c670b21deb195ba9efd1c"
     },
     {
       "id": "ocean-waves",
@@ -576,7 +576,7 @@
       "url": "https://awajeh.site/wallpapers/ocean-waves.aw3d",
       "preview": "https://awajeh.site/wallpapers/ocean-waves.jpg",
       "size": 198095,
-      "sha256": "8bce7dc1e9089be74c73435bb2fea185b62cbbb030fd2df7bb969c1adeba2d89"
+      "sha256": "e535ce7da13ff29c4f141ef0bca8e3bd9d2ec0e63f085bcc6fa82611bb57ec8f"
     },
     {
       "id": "car-showroom",
@@ -660,7 +660,7 @@
       "url": "https://awajeh.site/wallpapers/car-showroom.aw3d",
       "preview": "https://awajeh.site/wallpapers/car-showroom.jpg",
       "size": 177296,
-      "sha256": "491502716d2cd5ef62bd3629ffd8a80bb9a6c36392315faaf867281802a59280"
+      "sha256": "a5cb0d004391f9b8ee6b1d0b485a48535a37b1e85498119512852770edb8a5c3"
     },
     {
       "id": "arabic-geometry",
@@ -712,7 +712,7 @@
       "url": "https://awajeh.site/wallpapers/arabic-geometry.aw3d",
       "preview": "https://awajeh.site/wallpapers/arabic-geometry.jpg",
       "size": 411686,
-      "sha256": "cca6c78ab450a6ba98d0e688b55397ca64d42b1e07a84ce3780856b1cd02edf3"
+      "sha256": "4272d15bde942a119eb0a7a7b4b0c5867ccd8e959531a0b5c45afa431260acac"
     },
     {
       "id": "cyber-globe",
@@ -773,7 +773,7 @@
       "url": "https://awajeh.site/wallpapers/cyber-globe.aw3d",
       "preview": "https://awajeh.site/wallpapers/cyber-globe.jpg",
       "size": 250159,
-      "sha256": "399b504b75588afb32d704f1bed369f9bcdbfa36ad9bdb815fbeb7e48d648c5c"
+      "sha256": "96f80a4ac911a56d9e4e0acd5267310c41cc3f28227a820bfc4de7ebc8491ce6"
     },
     {
       "id": "player-tunnel",
@@ -835,7 +835,7 @@
       "url": "https://awajeh.site/wallpapers/player-tunnel.aw3d",
       "preview": "https://awajeh.site/wallpapers/player-tunnel.jpg",
       "size": 214927,
-      "sha256": "6a4bce20175f770003840ac88144631f2271206a08f296acfc11dbd60e84d25e"
+      "sha256": "f457975cd7fb8a00dfe3b4c27dbd74a34f55b5c9b355d8febe903cb4bc9f4557"
     },
     {
       "id": "trophy-room",
@@ -888,7 +888,7 @@
       "url": "https://awajeh.site/wallpapers/trophy-room.aw3d",
       "preview": "https://awajeh.site/wallpapers/trophy-room.jpg",
       "size": 205900,
-      "sha256": "a7f6502c9720193cbbf986ed2274f3bf04bf6bfcbeaa4b83bde54bc0f5394e10"
+      "sha256": "3f90bfc018bfbb8a16ad3220c6ff7049bd3b90a08ea2015d007ea426b47ca87c"
     },
     {
       "id": "rain-match",
@@ -930,7 +930,7 @@
       "url": "https://awajeh.site/wallpapers/rain-match.aw3d",
       "preview": "https://awajeh.site/wallpapers/rain-match.jpg",
       "size": 194329,
-      "sha256": "a65ac2cf7022577797b2842eb99df39dc0071f7457217855894ca7a626361474"
+      "sha256": "77b4b48597e07d1fc709bd86f1c2eb04f16d234e7438393334dfb516be680753"
     },
     {
       "id": "terminal-hacker",
@@ -992,7 +992,7 @@
       "url": "https://awajeh.site/wallpapers/terminal-hacker.aw3d",
       "preview": "https://awajeh.site/wallpapers/terminal-hacker.jpg",
       "size": 228299,
-      "sha256": "2ab451e398278f788ef3eb0e8157715fccedb8a758563583b8c3784309629d72"
+      "sha256": "d045ea48efad8517ac56b5692c949e8dba91ecf3438b085d564192f305763be2"
     },
     {
       "id": "code-universe",
@@ -1034,7 +1034,7 @@
       "url": "https://awajeh.site/wallpapers/code-universe.aw3d",
       "preview": "https://awajeh.site/wallpapers/code-universe.jpg",
       "size": 398174,
-      "sha256": "7cd82b16b54db23e261843339eefdb1be5720cbb8974822fffd0bc89f797a4a5"
+      "sha256": "ab3f0ef274a6b1a309c07680695489e9d87653fe4dd9dfa18f1a757873220408"
     },
     {
       "id": "firewall",
@@ -1086,7 +1086,7 @@
       "url": "https://awajeh.site/wallpapers/firewall.aw3d",
       "preview": "https://awajeh.site/wallpapers/firewall.jpg",
       "size": 264545,
-      "sha256": "3ff58cae9a9bf75af2c2fdf0b8bd39ef60ac05f2edc37324fe1751d2149c5a11"
+      "sha256": "160e9ab1d6e193ccafbcd886123072d043d4f3ed0ab9021203b6d4a65ad8d912"
     },
     {
       "id": "earth",
@@ -1136,7 +1136,7 @@
       "url": "https://awajeh.site/wallpapers/earth.aw3d",
       "preview": "https://awajeh.site/wallpapers/earth.jpg",
       "size": 219732,
-      "sha256": "e75a3a3b3306886299316df8f4e1ab0485ac5609be1e6296679a6f2b6a18fa8f"
+      "sha256": "b9a0706153db49d3c5a12bebfcdf949e57d9ab1720218dd1805112e4fadf3c71"
     },
     {
       "id": "aurora",
@@ -1188,7 +1188,7 @@
       "url": "https://awajeh.site/wallpapers/aurora.aw3d",
       "preview": "https://awajeh.site/wallpapers/aurora.jpg",
       "size": 194361,
-      "sha256": "c1a88373a7c88ad1736beb38b9d614aa41994c661079b062beb20bf9394a3ee7"
+      "sha256": "61f79cc12042c5c20c756372c194a73111fabb9616f743408891e85fcfbbc9d4"
     },
     {
       "id": "midnight-highway",
@@ -1257,7 +1257,7 @@
       "url": "https://awajeh.site/wallpapers/midnight-highway.aw3d",
       "preview": "https://awajeh.site/wallpapers/midnight-highway.jpg",
       "size": 160021,
-      "sha256": "dd9dccd03bdf2aedb6fe0e77ff2d942a277a2d1cc8f3ffc86ff4b9492ec8592f"
+      "sha256": "2443b65fa22cb3137191f03c3aa7a04ea8c1ad79f43f00cba763761c1c9b340c"
     },
     {
       "id": "neon-dna",
@@ -1309,7 +1309,7 @@
       "url": "https://awajeh.site/wallpapers/neon-dna.aw3d",
       "preview": "https://awajeh.site/wallpapers/neon-dna.jpg",
       "size": 135706,
-      "sha256": "50a111bf50548d1d1072a8c26f9e1985c6141e7539342771daa8995db500ca07"
+      "sha256": "e2dbc2111769650f2f4525afa73c0d24bb0db7c80143e94e6cc45c4b3bfada18"
     },
     {
       "id": "bamboo-forest",
@@ -1341,7 +1341,7 @@
       "url": "https://awajeh.site/wallpapers/bamboo-forest.aw3d",
       "preview": "https://awajeh.site/wallpapers/bamboo-forest.jpg",
       "size": 288487,
-      "sha256": "81c45c2b6533832d1a6cf191b8867875a39449e8f666fdac680d18ea2e6420dc"
+      "sha256": "733d47176df9651bd1616b3b8d4ca30c650e7d1793470c7610ba75d73988ad33"
     },
     {
       "id": "luxury-watch",
@@ -1384,7 +1384,7 @@
       "url": "https://awajeh.site/wallpapers/luxury-watch.aw3d",
       "preview": "https://awajeh.site/wallpapers/luxury-watch.jpg",
       "size": 181882,
-      "sha256": "5d050f6e47874d1cd827692c36d17121211000002b8bcd5182415249e11652b0"
+      "sha256": "aece7eb593c386d78f58c2a1ac14ca78fdf42d09b3c173493b56c1f58b34698e"
     },
     {
       "id": "olive-grove",
@@ -1436,7 +1436,7 @@
       "url": "https://awajeh.site/wallpapers/olive-grove.aw3d",
       "preview": "https://awajeh.site/wallpapers/olive-grove.jpg",
       "size": 204924,
-      "sha256": "2618a26550d6fa6abdc17043bd7c5f593dd8892dc0a78848dff87b51656f03bb"
+      "sha256": "a91a9111396165f68224ac231cedd264d402c3778fcd5b0abf5e2fc75c972eee"
     },
     {
       "id": "floating-islands",
@@ -1468,7 +1468,7 @@
       "url": "https://awajeh.site/wallpapers/floating-islands.aw3d",
       "preview": "https://awajeh.site/wallpapers/floating-islands.jpg",
       "size": 154498,
-      "sha256": "c3ccd53aaa347d04ae6bca455cd23865b12775591176609b75f42d35cce07332"
+      "sha256": "6353234846f9c3f7cd1a7d4561abcd070138b7e3e5bd8819f4281b285796be31"
     },
     {
       "id": "rgb-setup",
@@ -1520,7 +1520,7 @@
       "url": "https://awajeh.site/wallpapers/rgb-setup.aw3d",
       "preview": "https://awajeh.site/wallpapers/rgb-setup.jpg",
       "size": 178129,
-      "sha256": "acf239bdb9d6df780d08c9e5dc543502ef1386f100bc5f5125a496f1f73cf06b"
+      "sha256": "2e6ec42fcb2b00cd98266d619d2eb48a23375fb0430a868897faaa867b990630"
     },
     {
       "id": "sky-city",
@@ -1552,7 +1552,7 @@
       "url": "https://awajeh.site/wallpapers/sky-city.aw3d",
       "preview": "https://awajeh.site/wallpapers/sky-city.jpg",
       "size": 394919,
-      "sha256": "06aace5ffc3a9d17dcb13fa201bd3473f0ba7a1aa01dd5b9c6ddca7ca68d5b69"
+      "sha256": "9a780c840d58f92ca2a07e731e7b55c311a042b5f010f547a8bb013d576e4224"
     },
     {
       "id": "ringed-giant",
@@ -1604,7 +1604,7 @@
       "url": "https://awajeh.site/wallpapers/ringed-giant.aw3d",
       "preview": "https://awajeh.site/wallpapers/ringed-giant.jpg",
       "size": 147391,
-      "sha256": "2436943ece7c7df6eafc24443bc57c80616f342d4d4f657a2e4442e68902c645"
+      "sha256": "0a6f96b4b5d5740e6d10cb1180b98f0e1422a1dd38df88f8a3c35ee9dfb39d2d"
     },
     {
       "id": "coral-depths",
@@ -1656,7 +1656,7 @@
       "url": "https://awajeh.site/wallpapers/coral-depths.aw3d",
       "preview": "https://awajeh.site/wallpapers/coral-depths.jpg",
       "size": 181906,
-      "sha256": "08a71fc9403e1d3ebb5d24e7e169e911c62c9d4ba04886fa208d368357955479"
+      "sha256": "af11ff189c26d362b25fbee4678f71df34b5d8398ab83213b8b7f9508e6cbd00"
     },
     {
       "id": "arcane-portal",
@@ -1708,7 +1708,7 @@
       "url": "https://awajeh.site/wallpapers/arcane-portal.aw3d",
       "preview": "https://awajeh.site/wallpapers/arcane-portal.jpg",
       "size": 198360,
-      "sha256": "3e87d6c9c17be7fc81d9b8b15dd9e38f8f693ce417b418210b85ca4fbb59ca23"
+      "sha256": "4efb11b4726a43cb843ee161ee60e9aa7884d4b30acd38b19c4f5d782acd81ae"
     },
     {
       "id": "liquid-chrome",
@@ -1760,7 +1760,7 @@
       "url": "https://awajeh.site/wallpapers/liquid-chrome.aw3d",
       "preview": "https://awajeh.site/wallpapers/liquid-chrome.jpg",
       "size": 100228,
-      "sha256": "e087fd9fe99a2b5be2b5679f032505591725833629965b302ab43813acf1dbdf"
+      "sha256": "7893a544a9e16e7436754a170323d1560982bbc481a9543f56e9f78d1a6f7905"
     },
     {
       "id": "server-room",
@@ -1812,7 +1812,7 @@
       "url": "https://awajeh.site/wallpapers/server-room.aw3d",
       "preview": "https://awajeh.site/wallpapers/server-room.jpg",
       "size": 324231,
-      "sha256": "9dd826d14c40f4377831b0c1be634724a7d57ea3dd9540dd8452277001496a34"
+      "sha256": "04e4d969fa671a957ee93751351c4caf7ca785c5d8a3bc1f58562c4ed3dea505"
     },
     {
       "id": "language-worlds",
@@ -1879,7 +1879,7 @@
       "url": "https://awajeh.site/wallpapers/language-worlds.aw3d",
       "preview": "https://awajeh.site/wallpapers/language-worlds.jpg",
       "size": 189592,
-      "sha256": "96505eeb27a1133413695896268ce3734d8bbae391c9aba3a5d69568436a550e"
+      "sha256": "995c9f16dfe643fb779bca3be99fa073d266ccdd95d3dc265cc3fb6ef4f2ac69"
     },
     {
       "id": "silicon-core",
@@ -1932,7 +1932,7 @@
       "url": "https://awajeh.site/wallpapers/silicon-core.aw3d",
       "preview": "https://awajeh.site/wallpapers/silicon-core.jpg",
       "size": 246866,
-      "sha256": "5c2c666b8c9acda42d6db0900107b4b7d72d118dfad5a720c1468b217fde6362"
+      "sha256": "79dfb4f47dc27f998e0431c461f5a03930c6958a1d723691c4f0d9ffbbb51883"
     },
     {
       "id": "security-core",
@@ -1984,7 +1984,7 @@
       "url": "https://awajeh.site/wallpapers/security-core.aw3d",
       "preview": "https://awajeh.site/wallpapers/security-core.jpg",
       "size": 175635,
-      "sha256": "2800cbbefd8a82ac3b08f0f61d926af4191759e70eb20e1631633fcf7280988e"
+      "sha256": "1dddaa19a1ad6f08975a65ac6b1edbe642478d342598e6a590b1bbe935e22d83"
     },
     {
       "id": "cyber-glitch",
@@ -2036,7 +2036,7 @@
       "url": "https://awajeh.site/wallpapers/cyber-glitch.aw3d",
       "preview": "https://awajeh.site/wallpapers/cyber-glitch.jpg",
       "size": 349758,
-      "sha256": "bad0e7b4df2bfeadb1cd94a6b07af1b95f5eea0c9cb8793652f36c1369a48bef"
+      "sha256": "3a2f190b594f77f3b22c4bf9c3763e8194ae6af0cda5339820b916b13f7f750c"
     },
     {
       "id": "data-tunnel",
@@ -2089,7 +2089,7 @@
       "url": "https://awajeh.site/wallpapers/data-tunnel.aw3d",
       "preview": "https://awajeh.site/wallpapers/data-tunnel.jpg",
       "size": 316064,
-      "sha256": "abaa897f9a1129215315ceb30461f23b40899dbced6f5f6672628fda632a6fd9"
+      "sha256": "0c38b59df81ebde6ca4b62ffbe6431f434eee173df242388aa3aedef44b6ecd2"
     },
     {
       "id": "dev-desk",
@@ -2139,7 +2139,7 @@
       "url": "https://awajeh.site/wallpapers/dev-desk.aw3d",
       "preview": "https://awajeh.site/wallpapers/dev-desk.jpg",
       "size": 202286,
-      "sha256": "aa35e999b1bb7c718ed02ac4f19e02ddbab53dc5dcc15fb85ccb312909820345"
+      "sha256": "956a912f6ed64d88d3e715be96eac32e2d8b4e4d1bd3732b210b58bf3e52b4a1"
     },
     {
       "id": "ai-brain",
@@ -2192,7 +2192,7 @@
       "url": "https://awajeh.site/wallpapers/ai-brain.aw3d",
       "preview": "https://awajeh.site/wallpapers/ai-brain.jpg",
       "size": 218404,
-      "sha256": "2bcebca0c60f0d596479283122dd731829efbb03aadf8997a765f7dff8082a2b"
+      "sha256": "1676b517cbba731244dcd2db4938fc26b802d012525a31299149058c1c7b035d"
     },
     {
       "id": "robotic-hand",
@@ -2245,7 +2245,7 @@
       "url": "https://awajeh.site/wallpapers/robotic-hand.aw3d",
       "preview": "https://awajeh.site/wallpapers/robotic-hand.jpg",
       "size": 129842,
-      "sha256": "0b799b9721e972aa8e298c4703715a615dc4363a23078ea3d4d8cbd635781efa"
+      "sha256": "7653d38cdceee5ca73a3c73ff08576e2108089e9ce7bda8c68d66073cfcc1f1c"
     },
     {
       "id": "command-center",
@@ -2297,7 +2297,7 @@
       "url": "https://awajeh.site/wallpapers/command-center.aw3d",
       "preview": "https://awajeh.site/wallpapers/command-center.jpg",
       "size": 290623,
-      "sha256": "0b66466d1b25eabcbb7601bbf1e102d6d02263c815cee47a751fd37e90349165"
+      "sha256": "2a2ddb63ab941ef3441905e1dc8746e147d90c9ca16b7690933d9837e1fe78be"
     },
     {
       "id": "quantum-computer",
@@ -2350,7 +2350,7 @@
       "url": "https://awajeh.site/wallpapers/quantum-computer.aw3d",
       "preview": "https://awajeh.site/wallpapers/quantum-computer.jpg",
       "size": 124543,
-      "sha256": "773f7ff90f062c4de7e82fb9fe845873fcd0b791ddd782736ab121d43754cfa9"
+      "sha256": "6b2eba986549df4499a093fc8ff40205ee35e03d95ef6eaa0a8b71ac5bc78171"
     },
     {
       "id": "git-galaxy",
@@ -2403,7 +2403,7 @@
       "url": "https://awajeh.site/wallpapers/git-galaxy.aw3d",
       "preview": "https://awajeh.site/wallpapers/git-galaxy.jpg",
       "size": 85561,
-      "sha256": "267677b2592248052afb87858d2e436f6cb53ec4986c732e3127246d49f0ba69"
+      "sha256": "d8be4392bd50a53559fdcb96c3e252b01f39a76f7c6226558a1b52970a38d454"
     },
     {
       "id": "nebula-voyage",
@@ -2455,7 +2455,7 @@
       "url": "https://awajeh.site/wallpapers/nebula-voyage.aw3d",
       "preview": "https://awajeh.site/wallpapers/nebula-voyage.jpg",
       "size": 248724,
-      "sha256": "5228d63554f0dc4a3f8c0c6bce33781810303701fcb3358a8e7b8394b9004064"
+      "sha256": "9ac42b5d4cd44c3318568747bd4b1f8cf439999f18e2e2e7eae7b49e11527734"
     },
     {
       "id": "stone-village",
@@ -2499,7 +2499,7 @@
       "url": "https://awajeh.site/wallpapers/stone-village.aw3d",
       "preview": "https://awajeh.site/wallpapers/stone-village.jpg",
       "size": 177501,
-      "sha256": "2f110ac5c457a8dba7e7522d08ae91ff0a7303c31fd584652febe661bb6b235e"
+      "sha256": "ce3c1bc349e2a591ccad8b07c474c14b265eaaa8878332a44879c6eb735a025e"
     },
     {
       "id": "sakura-night",
@@ -2532,7 +2532,303 @@
       "url": "https://awajeh.site/wallpapers/sakura-night.aw3d",
       "preview": "https://awajeh.site/wallpapers/sakura-night.jpg",
       "size": 172235,
-      "sha256": "e51ed112976619e7114e3919618c7243e57e67de22d689cafc871986c307b660"
+      "sha256": "13df90d92dbc9c414f161de723a27d36a0600451706027ce3c8929da736ebd0f"
+    },
+    {
+      "id": "controller-arena",
+      "name": "Controller Arena",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Press start",
+      "description": "An original game controller floats above a neon hex arena. Its buttons and light bar pulse to a beat, energy pillars rise around the arena and a ring of light sweeps across the floor on every beat.",
+      "category": "Gaming",
+      "accent": "#00e1ff",
+      "tags": [
+        "Gaming",
+        "Controller",
+        "Neon",
+        "RGB"
+      ],
+      "params": [
+        {
+          "key": "rgb",
+          "label": "RGB colours",
+          "type": "select",
+          "default": "cyber",
+          "options": [
+            {
+              "value": "cyber",
+              "label": "Cyan / pink"
+            },
+            {
+              "value": "toxic",
+              "label": "Toxic green"
+            },
+            {
+              "value": "royal",
+              "label": "Violet / gold"
+            }
+          ]
+        },
+        {
+          "key": "tempo",
+          "label": "Beat tempo",
+          "type": "range",
+          "min": 0.25,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/controller-arena.aw3d",
+      "preview": "https://awajeh.site/wallpapers/controller-arena.jpg",
+      "size": 183608,
+      "sha256": "08affd70a7905154efdbc4c852db97c58f29572f4eba731187255699581ebfce"
+    },
+    {
+      "id": "black-marble",
+      "name": "Black Marble",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Quiet luxury",
+      "description": "A still life of polished black marble with veins of gold: a slab and plinths hold a slowly turning metal ring and sphere while soft light glides across the stone so the veins shimmer.",
+      "category": "Minimal & Luxury",
+      "accent": "#e8c37a",
+      "tags": [
+        "Luxury",
+        "Marble",
+        "Gold",
+        "Minimal"
+      ],
+      "params": [
+        {
+          "key": "vein",
+          "label": "Veins and metal",
+          "type": "select",
+          "default": "gold",
+          "options": [
+            {
+              "value": "gold",
+              "label": "Gold"
+            },
+            {
+              "value": "silver",
+              "label": "Silver"
+            },
+            {
+              "value": "rose",
+              "label": "Rose gold"
+            }
+          ]
+        },
+        {
+          "key": "spin",
+          "label": "Ring rotation",
+          "type": "range",
+          "min": 0,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/black-marble.aw3d",
+      "preview": "https://awajeh.site/wallpapers/black-marble.jpg",
+      "size": 185244,
+      "sha256": "4d8c4fa8b1a5e004e7876d57062661d178962b2206758a760bc64474ebd4cbf8"
+    },
+    {
+      "id": "tunnel-run",
+      "name": "Tunnel Run",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Flat out after midnight",
+      "description": "A sports car tears through a long concrete tunnel at night. Ceiling light strips streak past overhead, their reflections slide across the wet road and the camera chases low behind the car.",
+      "category": "Automotive",
+      "accent": "#ffb04a",
+      "tags": [
+        "Car",
+        "Tunnel",
+        "Night",
+        "Speed"
+      ],
+      "params": [
+        {
+          "key": "paint",
+          "label": "Paint",
+          "type": "select",
+          "default": "black",
+          "options": [
+            {
+              "value": "black",
+              "label": "Black"
+            },
+            {
+              "value": "red",
+              "label": "Red"
+            },
+            {
+              "value": "white",
+              "label": "White"
+            },
+            {
+              "value": "blue",
+              "label": "Blue"
+            },
+            {
+              "value": "green",
+              "label": "Racing green"
+            }
+          ]
+        },
+        {
+          "key": "lights",
+          "label": "Tunnel lights",
+          "type": "select",
+          "default": "sodium",
+          "options": [
+            {
+              "value": "sodium",
+              "label": "Sodium orange"
+            },
+            {
+              "value": "white",
+              "label": "White LED"
+            },
+            {
+              "value": "neon",
+              "label": "Neon cyan"
+            }
+          ]
+        },
+        {
+          "key": "speed",
+          "label": "Speed",
+          "type": "range",
+          "min": 0.2,
+          "max": 2.5,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/tunnel-run.aw3d",
+      "preview": "https://awajeh.site/wallpapers/tunnel-run.jpg",
+      "size": 189098,
+      "sha256": "68c4c994934acee1cd509c6e34df1b24f62d74986b930d73f6777f8a5e55cc5b"
+    },
+    {
+      "id": "crystal-cavern",
+      "name": "Crystal Cavern",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Light from the deep",
+      "description": "A vast cave lit only by giant crystals growing from its floor, walls and ceiling. Their light pulses slowly, reflects in a dark underground pool and catches on drifting dust.",
+      "category": "Fantasy",
+      "accent": "#b06bff",
+      "tags": [
+        "Fantasy",
+        "Crystal",
+        "Cave"
+      ],
+      "params": [
+        {
+          "key": "gem",
+          "label": "Crystals",
+          "type": "select",
+          "default": "amethyst",
+          "options": [
+            {
+              "value": "amethyst",
+              "label": "Amethyst"
+            },
+            {
+              "value": "emerald",
+              "label": "Emerald"
+            },
+            {
+              "value": "sapphire",
+              "label": "Sapphire"
+            },
+            {
+              "value": "ruby",
+              "label": "Ruby"
+            }
+          ]
+        },
+        {
+          "key": "glow",
+          "label": "Glow",
+          "type": "range",
+          "min": 0.3,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/crystal-cavern.aw3d",
+      "preview": "https://awajeh.site/wallpapers/crystal-cavern.jpg",
+      "size": 216673,
+      "sha256": "07cad2e55af2a58097b1285ff43312c2bc0bffdba6371cbda9d9a3e7a7d38794"
+    },
+    {
+      "id": "sky-traffic",
+      "name": "Sky Traffic",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Rush hour, 300 metres up",
+      "description": "A megacity at night seen from high above a canyon of towers. Streams of flying cars follow layered air lanes between the buildings — white headlights one way, red tail lights the other.",
+      "category": "Futuristic Cities",
+      "accent": "#ff2d95",
+      "tags": [
+        "City",
+        "Future",
+        "Night",
+        "Traffic"
+      ],
+      "params": [
+        {
+          "key": "city",
+          "label": "City lights",
+          "type": "select",
+          "default": "neon",
+          "options": [
+            {
+              "value": "neon",
+              "label": "Neon"
+            },
+            {
+              "value": "gold",
+              "label": "Gold"
+            },
+            {
+              "value": "ice",
+              "label": "Ice"
+            }
+          ]
+        },
+        {
+          "key": "traffic",
+          "label": "Traffic",
+          "type": "range",
+          "min": 0.2,
+          "max": 1.5,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/sky-traffic.aw3d",
+      "preview": "https://awajeh.site/wallpapers/sky-traffic.jpg",
+      "size": 427170,
+      "sha256": "96f5bd482a96a6a7bcf77b93f4c5ca7ad609276e0a153e268cc61b0ac7cc5d2e"
     }
   ]
 }
