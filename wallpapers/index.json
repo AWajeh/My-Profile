@@ -1,0 +1,2095 @@
+{
+  "schema": 1,
+  "updated": "2026-10-31T00:12:26.144Z",
+  "wallpapers": [
+    {
+      "id": "fujiyama",
+      "name": "Fujiyama Dawn",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "A sacred mountain at first light",
+      "description": "A cinematic Japanese landscape: a snow-capped volcano rising above a mirror lake, a vermilion gate in the shallows, a five-storey pagoda among blossoming cherry trees, drifting clouds, low mist and petals carried by the wind.",
+      "category": "Japan & Anime",
+      "accent": "#ff8fa3",
+      "tags": [
+        "Nature",
+        "Japan",
+        "Flagship"
+      ],
+      "params": [
+        {
+          "key": "timeOfDay",
+          "label": "Time of day",
+          "type": "select",
+          "default": "dawn",
+          "options": [
+            {
+              "value": "dawn",
+              "label": "Dawn"
+            },
+            {
+              "value": "day",
+              "label": "Day"
+            },
+            {
+              "value": "sunset",
+              "label": "Sunset"
+            },
+            {
+              "value": "night",
+              "label": "Night"
+            }
+          ]
+        },
+        {
+          "key": "wind",
+          "label": "Wind strength",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "petals",
+          "label": "Cherry blossom petals",
+          "type": "toggle",
+          "default": true
+        },
+        {
+          "key": "birds",
+          "label": "Birds",
+          "type": "toggle",
+          "default": true
+        },
+        {
+          "key": "mist",
+          "label": "Lake mist",
+          "type": "range",
+          "min": 0,
+          "max": 1.5,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/fujiyama.aw3d",
+      "preview": "https://awajeh.site/wallpapers/fujiyama.jpg",
+      "size": 219952,
+      "sha256": "f3d9f8658b013d51ccf9f1207565a77136e16e9891f8e593c0de388d898c3930"
+    },
+    {
+      "id": "cyberpunk",
+      "name": "Neon Rain",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "A city that never powers down",
+      "description": "A rain-soaked future metropolis: towering blocks studded with lit windows, flickering neon signage, mirror-wet streets, ground traffic and hover-car lanes, drifting fog and rotating holograms.",
+      "category": "Futuristic Cities",
+      "accent": "#ff2bd6",
+      "tags": [
+        "City",
+        "Neon",
+        "Rain"
+      ],
+      "params": [
+        {
+          "key": "rain",
+          "label": "Rain density",
+          "type": "range",
+          "min": 0,
+          "max": 1.5,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "traffic",
+          "label": "Traffic density",
+          "type": "range",
+          "min": 0,
+          "max": 1.5,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "palette",
+          "label": "Neon palette",
+          "type": "select",
+          "default": "magenta",
+          "options": [
+            {
+              "value": "magenta",
+              "label": "Magenta / Cyan"
+            },
+            {
+              "value": "amber",
+              "label": "Amber / Teal"
+            },
+            {
+              "value": "toxic",
+              "label": "Acid Green / Violet"
+            }
+          ]
+        },
+        {
+          "key": "holograms",
+          "label": "Holograms",
+          "type": "toggle",
+          "default": true
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/cyberpunk.aw3d",
+      "preview": "https://awajeh.site/wallpapers/cyberpunk.jpg",
+      "size": 433539,
+      "sha256": "e1c6f8316d0b9d036117494476dc0d767c80acae274d4336b935e83736df961e"
+    },
+    {
+      "id": "deepspace",
+      "name": "Deep Space",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Drift beyond the edge of the map",
+      "description": "A slow orbit through an uncharted system: a banded ringed giant, its cratered moon, a living nebula, a tumbling asteroid belt and a sky of twinkling stars.",
+      "category": "Space",
+      "accent": "#7aa7ff",
+      "tags": [
+        "Space",
+        "Planets",
+        "Calm"
+      ],
+      "params": [
+        {
+          "key": "nebula",
+          "label": "Nebula colour",
+          "type": "select",
+          "default": "violet",
+          "options": [
+            {
+              "value": "violet",
+              "label": "Violet / Teal"
+            },
+            {
+              "value": "ember",
+              "label": "Ember / Gold"
+            },
+            {
+              "value": "glacier",
+              "label": "Glacier Blue"
+            }
+          ]
+        },
+        {
+          "key": "asteroids",
+          "label": "Asteroid density",
+          "type": "range",
+          "min": 0,
+          "max": 1.5,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "orbitSpeed",
+          "label": "Orbit speed",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/deepspace.aw3d",
+      "preview": "https://awajeh.site/wallpapers/deepspace.jpg",
+      "size": 250908,
+      "sha256": "0d0c3a80632150694e0c2048dc7c85833dd91e19067210b5f3f5b3b58caa1697"
+    },
+    {
+      "id": "abstract",
+      "name": "Monolith",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Chrome, glass and quiet light",
+      "description": "Floating geometric sculptures in polished chrome, brushed gold and smoked glass orbit a morphing liquid core above a black mirror floor, lit by slow-moving cold lights.",
+      "category": "Abstract 3D",
+      "accent": "#9fc6ff",
+      "tags": [
+        "Abstract",
+        "Minimal",
+        "Metal"
+      ],
+      "params": [
+        {
+          "key": "lighting",
+          "label": "Lighting",
+          "type": "select",
+          "default": "arctic",
+          "options": [
+            {
+              "value": "arctic",
+              "label": "Arctic Blue"
+            },
+            {
+              "value": "warm",
+              "label": "Warm Studio"
+            },
+            {
+              "value": "mono",
+              "label": "Monochrome"
+            }
+          ]
+        },
+        {
+          "key": "count",
+          "label": "Object count",
+          "type": "range",
+          "min": 0.3,
+          "max": 1.5,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "morph",
+          "label": "Core morphing",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/abstract.aw3d",
+      "preview": "https://awajeh.site/wallpapers/abstract.jpg",
+      "size": 204963,
+      "sha256": "7499d4dfaaf880b0a6b5a5a48726c8a9c584e39dfd35d58e3961004b156ced03"
+    },
+    {
+      "id": "stadium-night",
+      "name": "Stadium Night",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Floodlights, flashes and a full house",
+      "description": "A night match atmosphere inside an original stadium design: three tiers of animated supporters with a stadium wave, floodlight beams cutting through the haze, camera flashes and drifting confetti as the camera circles the pitch. Unofficial artistic interpretation — not affiliated with any club or venue.",
+      "category": "Football",
+      "collection": "Stadiums",
+      "accent": "#e9d18a",
+      "tags": [
+        "Football",
+        "Stadium",
+        "Night"
+      ],
+      "params": [
+        {
+          "key": "theme",
+          "label": "Club colours",
+          "type": "select",
+          "default": "royal",
+          "options": [
+            {
+              "value": "royal",
+              "label": "Royal White & Gold"
+            },
+            {
+              "value": "blaugrana",
+              "label": "Blaugrana"
+            },
+            {
+              "value": "classic",
+              "label": "Classic"
+            }
+          ]
+        },
+        {
+          "key": "orbit",
+          "label": "Camera orbit speed",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "confetti",
+          "label": "Confetti",
+          "type": "toggle",
+          "default": true
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/stadium-night.aw3d",
+      "preview": "https://awajeh.site/wallpapers/stadium-night.jpg",
+      "size": 259416,
+      "sha256": "40c8b1ea8973f388c40fd680eb7ecac303b6ef747ce4f223142145a7a84be239"
+    },
+    {
+      "id": "matrix-rain",
+      "name": "Code Rain",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Endless code falling through the dark",
+      "description": "Columns of glowing glyphs and code symbols fall through a deep 3D volume. Layers fade into fog while the camera drifts slowly between the streams.",
+      "category": "Programming",
+      "collection": "Hacker Aesthetic",
+      "accent": "#3dff7a",
+      "tags": [
+        "Programming",
+        "Code",
+        "Hacker"
+      ],
+      "params": [
+        {
+          "key": "color",
+          "label": "Colour",
+          "type": "select",
+          "default": "green",
+          "options": [
+            {
+              "value": "green",
+              "label": "Terminal green"
+            },
+            {
+              "value": "cyan",
+              "label": "Cyan"
+            },
+            {
+              "value": "amber",
+              "label": "Amber"
+            },
+            {
+              "value": "violet",
+              "label": "Violet"
+            }
+          ]
+        },
+        {
+          "key": "density",
+          "label": "Code density",
+          "type": "range",
+          "min": 0.2,
+          "max": 1.5,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "speed",
+          "label": "Fall speed",
+          "type": "range",
+          "min": 0.2,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "glow",
+          "label": "Glow intensity",
+          "type": "range",
+          "min": 0.3,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/matrix-rain.aw3d",
+      "preview": "https://awajeh.site/wallpapers/matrix-rain.jpg",
+      "size": 399549,
+      "sha256": "88d7d70f16f4557c2ff26b918da142d8d36e52d7cb2c2cd51d8117dd608ee2eb"
+    },
+    {
+      "id": "neural-network",
+      "name": "Neural Mind",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "A thinking network made of light",
+      "description": "Thousands of neurons arranged in two hemispheres fire signals along their synapses inside a holographic shell, circled by orbital data rings.",
+      "category": "Programming",
+      "accent": "#a37bff",
+      "tags": [
+        "AI",
+        "Neural network",
+        "Hologram"
+      ],
+      "params": [
+        {
+          "key": "palette",
+          "label": "Energy colour",
+          "type": "select",
+          "default": "violet",
+          "options": [
+            {
+              "value": "violet",
+              "label": "Blue / Violet"
+            },
+            {
+              "value": "cyan",
+              "label": "Cyan"
+            },
+            {
+              "value": "gold",
+              "label": "Gold / Rose"
+            }
+          ]
+        },
+        {
+          "key": "activity",
+          "label": "Signal activity",
+          "type": "range",
+          "min": 0.2,
+          "max": 2.5,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/neural-network.aw3d",
+      "preview": "https://awajeh.site/wallpapers/neural-network.jpg",
+      "size": 170135,
+      "sha256": "4fb87f69f52668e342b7ca73908411c811ea0f3fee76e003fdf490117448a17c"
+    },
+    {
+      "id": "black-hole",
+      "name": "Event Horizon",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Light bending around a black hole",
+      "description": "A ray-marched black hole: starlight bends around the event horizon and the glowing accretion disk is lensed above and below it, brighter on the side spinning towards you.",
+      "category": "Space",
+      "accent": "#ffb46a",
+      "tags": [
+        "Space",
+        "Black hole",
+        "Ray marching"
+      ],
+      "params": [
+        {
+          "key": "disk",
+          "label": "Disk brightness",
+          "type": "range",
+          "min": 0.2,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "spin",
+          "label": "Disk rotation",
+          "type": "range",
+          "min": 0,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "temperature",
+          "label": "Disk temperature (hot → warm)",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.05,
+          "default": 0.5
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/black-hole.aw3d",
+      "preview": "https://awajeh.site/wallpapers/black-hole.jpg",
+      "size": 217528,
+      "sha256": "97e70e930868347a1d5abb667f0eb8ef70fe37a2bd8f43fcc32f925dacb244ec"
+    },
+    {
+      "id": "ocean-waves",
+      "name": "Open Ocean",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Rolling waves to the horizon",
+      "description": "An open sea simulated with layered Gerstner waves: foam forms on the crests, light glows through the thin water, and the sun glitters across the surface.",
+      "category": "Nature & Ocean",
+      "accent": "#5fc6d6",
+      "tags": [
+        "Ocean",
+        "Water",
+        "Calm"
+      ],
+      "params": [
+        {
+          "key": "time",
+          "label": "Sky",
+          "type": "select",
+          "default": "golden",
+          "options": [
+            {
+              "value": "golden",
+              "label": "Golden hour"
+            },
+            {
+              "value": "day",
+              "label": "Midday"
+            },
+            {
+              "value": "storm",
+              "label": "Storm"
+            },
+            {
+              "value": "moon",
+              "label": "Moonlight"
+            }
+          ]
+        },
+        {
+          "key": "waves",
+          "label": "Wave height",
+          "type": "range",
+          "min": 0.2,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "wind",
+          "label": "Wind speed",
+          "type": "range",
+          "min": 0.2,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "foam",
+          "label": "Foam density",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/ocean-waves.aw3d",
+      "preview": "https://awajeh.site/wallpapers/ocean-waves.jpg",
+      "size": 198095,
+      "sha256": "a64ca151cd79c90d6ca097d92426842fd885c7a70ce72a0c2a846abb9d1b3782"
+    },
+    {
+      "id": "car-showroom",
+      "name": "Luxury Garage",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "A grand tourer under studio light",
+      "description": "An original grand-tourer design turns slowly on a lit turntable in a dark showroom. Light strips glide across the clear-coat and reflect in the black mirror floor. Original design — not a replica of any manufacturer’s model.",
+      "category": "Automotive",
+      "accent": "#9cc6ff",
+      "tags": [
+        "Car",
+        "Luxury",
+        "Showroom"
+      ],
+      "params": [
+        {
+          "key": "paint",
+          "label": "Paint",
+          "type": "select",
+          "default": "black",
+          "options": [
+            {
+              "value": "black",
+              "label": "Obsidian black"
+            },
+            {
+              "value": "silver",
+              "label": "Liquid silver"
+            },
+            {
+              "value": "red",
+              "label": "Racing red"
+            },
+            {
+              "value": "blue",
+              "label": "Midnight blue"
+            },
+            {
+              "value": "white",
+              "label": "Pearl white"
+            },
+            {
+              "value": "green",
+              "label": "British green"
+            }
+          ]
+        },
+        {
+          "key": "body",
+          "label": "Body style",
+          "type": "select",
+          "default": "coupe",
+          "options": [
+            {
+              "value": "coupe",
+              "label": "Coupé"
+            },
+            {
+              "value": "saloon",
+              "label": "Saloon"
+            },
+            {
+              "value": "hyper",
+              "label": "Hypercar"
+            }
+          ]
+        },
+        {
+          "key": "spin",
+          "label": "Turntable speed",
+          "type": "range",
+          "min": 0,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/car-showroom.aw3d",
+      "preview": "https://awajeh.site/wallpapers/car-showroom.jpg",
+      "size": 177296,
+      "sha256": "df219d17eb4358a74fd06ccc12e391d81e86534a69d40f0a584fd6121c9bf537"
+    },
+    {
+      "id": "arabic-geometry",
+      "name": "Golden Khatam",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Eight-point stars in living gold",
+      "description": "Layers of interlaced eight-point stars, inspired by traditional Arabic geometric art, turn slowly in warm light beneath pointed arches while dust drifts through the hall.",
+      "category": "Arabic & Palestine",
+      "accent": "#d8a64a",
+      "tags": [
+        "Arabic",
+        "Geometry",
+        "Gold"
+      ],
+      "params": [
+        {
+          "key": "metal",
+          "label": "Metal",
+          "type": "select",
+          "default": "gold",
+          "options": [
+            {
+              "value": "gold",
+              "label": "Gold"
+            },
+            {
+              "value": "copper",
+              "label": "Copper"
+            },
+            {
+              "value": "silver",
+              "label": "Silver"
+            }
+          ]
+        },
+        {
+          "key": "motion",
+          "label": "Motion",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/arabic-geometry.aw3d",
+      "preview": "https://awajeh.site/wallpapers/arabic-geometry.jpg",
+      "size": 411686,
+      "sha256": "3dcde0e41cb1416122e1256351fe232604c6e2145232c23f6ec0e94f47cf5b72"
+    },
+    {
+      "id": "cyber-globe",
+      "name": "Cyber Network",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "The world, connected",
+      "description": "A dark procedural Earth with glowing city grids and an atmosphere. Data packets race along arcs between cities while a satellite ring circles overhead.",
+      "category": "Cybersecurity",
+      "accent": "#29e0ff",
+      "tags": [
+        "Cybersecurity",
+        "Network",
+        "Globe"
+      ],
+      "params": [
+        {
+          "key": "theme",
+          "label": "Theme",
+          "type": "select",
+          "default": "cyan",
+          "options": [
+            {
+              "value": "cyan",
+              "label": "Cyan"
+            },
+            {
+              "value": "green",
+              "label": "Secure green"
+            },
+            {
+              "value": "red",
+              "label": "Threat red"
+            }
+          ]
+        },
+        {
+          "key": "traffic",
+          "label": "Data traffic",
+          "type": "range",
+          "min": 0.2,
+          "max": 2.5,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "rotation",
+          "label": "Rotation speed",
+          "type": "range",
+          "min": 0,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/cyber-globe.aw3d",
+      "preview": "https://awajeh.site/wallpapers/cyber-globe.jpg",
+      "size": 250159,
+      "sha256": "4a67254696b002df7886f0fd25b49c756795e55d16f8dacb130aa5497933b591"
+    },
+    {
+      "id": "player-tunnel",
+      "name": "The Walk Out",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "The tunnel before kick-off",
+      "description": "Walk down the players’ tunnel towards the floodlit pitch: concrete walls, light strips, haze rolling in the beams and the roar of the stadium glowing at the end. Unofficial artistic interpretation.",
+      "category": "Football",
+      "collection": "Stadiums",
+      "accent": "#ffe6a8",
+      "tags": [
+        "Football",
+        "Tunnel",
+        "Cinematic"
+      ],
+      "params": [
+        {
+          "key": "theme",
+          "label": "Lighting",
+          "type": "select",
+          "default": "royal",
+          "options": [
+            {
+              "value": "royal",
+              "label": "Royal white & gold"
+            },
+            {
+              "value": "blaugrana",
+              "label": "Blaugrana"
+            },
+            {
+              "value": "classic",
+              "label": "Classic"
+            }
+          ]
+        },
+        {
+          "key": "haze",
+          "label": "Haze",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "flicker",
+          "label": "Light flicker",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/player-tunnel.aw3d",
+      "preview": "https://awajeh.site/wallpapers/player-tunnel.jpg",
+      "size": 214927,
+      "sha256": "97e21790c3e00bf6947013b2f81ef3eb41a5980aa141d86bdabe05918df36750"
+    },
+    {
+      "id": "trophy-room",
+      "name": "Trophy Room",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Silverware under the spotlight",
+      "description": "An original championship cup turns slowly on a black plinth while spotlights sweep across it, surrounded by illuminated glass cabinets and drifting golden sparkles.",
+      "category": "Football",
+      "collection": "Trophies",
+      "accent": "#e2b04a",
+      "tags": [
+        "Football",
+        "Trophy",
+        "Gold"
+      ],
+      "params": [
+        {
+          "key": "metal",
+          "label": "Metal",
+          "type": "select",
+          "default": "gold",
+          "options": [
+            {
+              "value": "gold",
+              "label": "Gold"
+            },
+            {
+              "value": "silver",
+              "label": "Silver"
+            },
+            {
+              "value": "platinum",
+              "label": "Platinum"
+            }
+          ]
+        },
+        {
+          "key": "spin",
+          "label": "Rotation speed",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/trophy-room.aw3d",
+      "preview": "https://awajeh.site/wallpapers/trophy-room.jpg",
+      "size": 205900,
+      "sha256": "549201dc23cd577784081ebc58538b8356ac3663081cda61a0dacd77aadc4cc5"
+    },
+    {
+      "id": "rain-match",
+      "name": "Rain Match",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "A match ball in the downpour",
+      "description": "A close-up of a match ball on a soaked pitch under floodlights: rain streaks, splashes and ripples on the wet grass, stadium lights glowing through the storm.",
+      "category": "Football",
+      "collection": "Football 3D",
+      "accent": "#9cc6ff",
+      "tags": [
+        "Football",
+        "Rain",
+        "Close-up"
+      ],
+      "params": [
+        {
+          "key": "rain",
+          "label": "Rain intensity",
+          "type": "range",
+          "min": 0,
+          "max": 1.5,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "lightning",
+          "label": "Lightning frequency",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/rain-match.aw3d",
+      "preview": "https://awajeh.site/wallpapers/rain-match.jpg",
+      "size": 194329,
+      "sha256": "8bddcce946b2178a66259ef6fb5c83bd088c1d35caf7ea14285c965a11c58141"
+    },
+    {
+      "id": "terminal-hacker",
+      "name": "Terminal",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Live shell sessions in the dark",
+      "description": "Floating terminal windows type out real-looking sessions — git, ssh, docker, kubectl, Python training runs and SQL — with scanlines and the odd glitch.",
+      "category": "Programming",
+      "collection": "Hacker Aesthetic",
+      "accent": "#4dff8c",
+      "tags": [
+        "Programming",
+        "Terminal",
+        "Hacker"
+      ],
+      "params": [
+        {
+          "key": "color",
+          "label": "Terminal colour",
+          "type": "select",
+          "default": "green",
+          "options": [
+            {
+              "value": "green",
+              "label": "Green"
+            },
+            {
+              "value": "amber",
+              "label": "Amber"
+            },
+            {
+              "value": "cyan",
+              "label": "Cyan"
+            }
+          ]
+        },
+        {
+          "key": "speed",
+          "label": "Typing speed",
+          "type": "range",
+          "min": 0.2,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "glitch",
+          "label": "Glitch intensity",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/terminal-hacker.aw3d",
+      "preview": "https://awajeh.site/wallpapers/terminal-hacker.jpg",
+      "size": 228299,
+      "sha256": "045978b4b0883c7ed82dedca75fa4f42f9c24bc28fb7e8fe095f3d2c9cad3404"
+    },
+    {
+      "id": "code-universe",
+      "name": "Code Universe",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Fly through a galaxy of source code",
+      "description": "Thousands of lines of real TypeScript, Python, C#, C++, SQL and shell drift through deep space in blue, violet and cyan as the camera flies endlessly forward.",
+      "category": "Programming",
+      "collection": "Digital Universe",
+      "accent": "#7a8cff",
+      "tags": [
+        "Programming",
+        "Code",
+        "Space"
+      ],
+      "params": [
+        {
+          "key": "density",
+          "label": "Code density",
+          "type": "range",
+          "min": 0.2,
+          "max": 1.5,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "speed",
+          "label": "Flight speed",
+          "type": "range",
+          "min": 0,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/code-universe.aw3d",
+      "preview": "https://awajeh.site/wallpapers/code-universe.jpg",
+      "size": 398174,
+      "sha256": "b2498406891df7893488fd18333216f6e83da280761dfe60193c34bf46222601"
+    },
+    {
+      "id": "firewall",
+      "name": "Firewall",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "The shield holds",
+      "description": "A vast hexagonal energy barrier seen from inside the network. Hostile packets stream in and burst against it, sending ripples of light across the shield.",
+      "category": "Cybersecurity",
+      "accent": "#3da9ff",
+      "tags": [
+        "Cybersecurity",
+        "Shield",
+        "Energy"
+      ],
+      "params": [
+        {
+          "key": "theme",
+          "label": "Colours",
+          "type": "select",
+          "default": "blue",
+          "options": [
+            {
+              "value": "blue",
+              "label": "Blue / red"
+            },
+            {
+              "value": "green",
+              "label": "Green / orange"
+            },
+            {
+              "value": "violet",
+              "label": "Violet / pink"
+            }
+          ]
+        },
+        {
+          "key": "attacks",
+          "label": "Attack rate",
+          "type": "range",
+          "min": 0.1,
+          "max": 1.5,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/firewall.aw3d",
+      "preview": "https://awajeh.site/wallpapers/firewall.jpg",
+      "size": 264545,
+      "sha256": "1aabee8063e76f49007ef02a66eaadf648a19c3066c4508882be1c6303956bdf"
+    },
+    {
+      "id": "earth",
+      "name": "Planet Earth",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Day turns to night below you",
+      "description": "A procedural Earth seen from orbit: oceans and continents, ice caps, moving clouds, sun glinting on the sea and city lights sparkling across the night side, wrapped in a blue atmosphere.",
+      "category": "Space",
+      "accent": "#5f9bff",
+      "tags": [
+        "Space",
+        "Earth",
+        "Planet"
+      ],
+      "params": [
+        {
+          "key": "rotation",
+          "label": "Rotation speed",
+          "type": "range",
+          "min": 0,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "clouds",
+          "label": "Cloud cover",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "cities",
+          "label": "City lights",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/earth.aw3d",
+      "preview": "https://awajeh.site/wallpapers/earth.jpg",
+      "size": 219732,
+      "sha256": "88ef908d12448dc4c9496ff127bbd9f15b9218f52dbe6850b5f954df17f63c3e"
+    },
+    {
+      "id": "aurora",
+      "name": "Northern Lights",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Aurora over a frozen lake",
+      "description": "Curtains of aurora ripple across a starry arctic sky above snowy peaks, mirrored in a still lake.",
+      "category": "Nature & Ocean",
+      "accent": "#3dff9a",
+      "tags": [
+        "Nature",
+        "Aurora",
+        "Night"
+      ],
+      "params": [
+        {
+          "key": "palette",
+          "label": "Aurora colours",
+          "type": "select",
+          "default": "green",
+          "options": [
+            {
+              "value": "green",
+              "label": "Green / violet"
+            },
+            {
+              "value": "violet",
+              "label": "Violet / pink"
+            },
+            {
+              "value": "cyan",
+              "label": "Cyan / green"
+            }
+          ]
+        },
+        {
+          "key": "intensity",
+          "label": "Intensity",
+          "type": "range",
+          "min": 0.2,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/aurora.aw3d",
+      "preview": "https://awajeh.site/wallpapers/aurora.jpg",
+      "size": 194361,
+      "sha256": "b51923b8f4c223677979c3efb8f04c1364b3e05843f6c7a24c3505d80c76d076"
+    },
+    {
+      "id": "midnight-highway",
+      "name": "Midnight Highway",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Chasing the lights at night",
+      "description": "A chase camera follows an original sports car down an endless motorway at night, weaving past traffic under sodium street lights with the city skyline on the horizon. Original car design.",
+      "category": "Automotive",
+      "accent": "#ffb15c",
+      "tags": [
+        "Car",
+        "Night",
+        "Highway"
+      ],
+      "params": [
+        {
+          "key": "paint",
+          "label": "Paint",
+          "type": "select",
+          "default": "black",
+          "options": [
+            {
+              "value": "black",
+              "label": "Black"
+            },
+            {
+              "value": "red",
+              "label": "Red"
+            },
+            {
+              "value": "blue",
+              "label": "Blue"
+            },
+            {
+              "value": "white",
+              "label": "White"
+            },
+            {
+              "value": "orange",
+              "label": "Orange"
+            }
+          ]
+        },
+        {
+          "key": "speed",
+          "label": "Speed",
+          "type": "range",
+          "min": 0.2,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        },
+        {
+          "key": "camera",
+          "label": "Camera offset",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/midnight-highway.aw3d",
+      "preview": "https://awajeh.site/wallpapers/midnight-highway.jpg",
+      "size": 160021,
+      "sha256": "ea8f14b93aea66ca10c1c53bcd77b93008225c39f667597d6caf03e5db840c92"
+    },
+    {
+      "id": "neon-dna",
+      "name": "Neon DNA",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "The code of life, glowing",
+      "description": "A glowing double helix with base-pair rungs turns slowly in a dark void while energy pulses run along its strands.",
+      "category": "Abstract 3D",
+      "accent": "#29e0ff",
+      "tags": [
+        "Abstract",
+        "DNA",
+        "Neon"
+      ],
+      "params": [
+        {
+          "key": "palette",
+          "label": "Colours",
+          "type": "select",
+          "default": "cyan",
+          "options": [
+            {
+              "value": "cyan",
+              "label": "Cyan / pink"
+            },
+            {
+              "value": "green",
+              "label": "Green / cyan"
+            },
+            {
+              "value": "gold",
+              "label": "Gold / red"
+            }
+          ]
+        },
+        {
+          "key": "spin",
+          "label": "Rotation speed",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/neon-dna.aw3d",
+      "preview": "https://awajeh.site/wallpapers/neon-dna.jpg",
+      "size": 135706,
+      "sha256": "ef3a6aa9ae39c7c8e7131a1fe5321731514ecc41ff5b3f0d9eb89f1a55983d16"
+    },
+    {
+      "id": "bamboo-forest",
+      "name": "Bamboo Forest",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Morning light through the grove",
+      "description": "Walk a stone path through towering bamboo swaying in the wind, with sunbeams through the canopy, soft fog and falling leaves.",
+      "category": "Japan & Anime",
+      "accent": "#9cc46a",
+      "tags": [
+        "Japan",
+        "Nature",
+        "Calm"
+      ],
+      "params": [
+        {
+          "key": "wind",
+          "label": "Wind strength",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/bamboo-forest.aw3d",
+      "preview": "https://awajeh.site/wallpapers/bamboo-forest.jpg",
+      "size": 288487,
+      "sha256": "811c86fdc854530367ee6e24ca407947dc6f34b611478fbb209e8dffe70cd90b"
+    },
+    {
+      "id": "luxury-watch",
+      "name": "Mechanical Watch",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Real time, real movement",
+      "description": "An open-heart skeleton watch that shows the real time: meshing gears, a beating balance wheel, ruby jewels and polished metal under studio light.",
+      "category": "Minimal & Luxury",
+      "accent": "#c9ced6",
+      "tags": [
+        "Luxury",
+        "Watch",
+        "Minimal"
+      ],
+      "params": [
+        {
+          "key": "finish",
+          "label": "Finish",
+          "type": "select",
+          "default": "steel",
+          "options": [
+            {
+              "value": "steel",
+              "label": "Steel / blue"
+            },
+            {
+              "value": "gold",
+              "label": "Gold"
+            },
+            {
+              "value": "black",
+              "label": "Black / orange"
+            }
+          ]
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/luxury-watch.aw3d",
+      "preview": "https://awajeh.site/wallpapers/luxury-watch.jpg",
+      "size": 181882,
+      "sha256": "f998ba5f656dc24aeabc5ee42641a87fcd9049d428cc391895d1728684ae8b01"
+    },
+    {
+      "id": "olive-grove",
+      "name": "Olive Grove",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Ancient trees on the terraces",
+      "description": "Ancient olive trees on stone terraces in the hills at golden hour, their silver-green leaves moving in the wind as dust drifts through the light.",
+      "category": "Arabic & Palestine",
+      "accent": "#a59a6a",
+      "tags": [
+        "Palestine",
+        "Olive trees",
+        "Nature"
+      ],
+      "params": [
+        {
+          "key": "time",
+          "label": "Time of day",
+          "type": "select",
+          "default": "sunset",
+          "options": [
+            {
+              "value": "sunset",
+              "label": "Sunset"
+            },
+            {
+              "value": "morning",
+              "label": "Morning"
+            },
+            {
+              "value": "dusk",
+              "label": "Dusk"
+            }
+          ]
+        },
+        {
+          "key": "wind",
+          "label": "Wind strength",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/olive-grove.aw3d",
+      "preview": "https://awajeh.site/wallpapers/olive-grove.jpg",
+      "size": 204924,
+      "sha256": "b721b746bb88bd70459d7c0547537fcf5e927eb3bdc6fda4b874e9a296770614"
+    },
+    {
+      "id": "floating-islands",
+      "name": "Floating Islands",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Waterfalls into the clouds",
+      "description": "Grassy islands of rock drift above a sea of clouds, waterfalls pouring from their edges, a ruined tower on the largest, birds circling.",
+      "category": "Fantasy",
+      "accent": "#7fb2ff",
+      "tags": [
+        "Fantasy",
+        "Islands",
+        "Clouds"
+      ],
+      "params": [
+        {
+          "key": "drift",
+          "label": "Island drift",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/floating-islands.aw3d",
+      "preview": "https://awajeh.site/wallpapers/floating-islands.jpg",
+      "size": 154498,
+      "sha256": "f65b41cfc9e1e663210c536fc1cbf92b005aa109335bf5a7c0e6e4547edac3d5"
+    },
+    {
+      "id": "rgb-setup",
+      "name": "RGB Setup",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "The battlestation after dark",
+      "description": "A dark gaming desk: a mechanical keyboard rippling with RGB waves, a curved monitor full of code, a glass PC with spinning lit fans and LED strips.",
+      "category": "Gaming",
+      "accent": "#ff3df0",
+      "tags": [
+        "Gaming",
+        "RGB",
+        "Setup"
+      ],
+      "params": [
+        {
+          "key": "mode",
+          "label": "Lighting effect",
+          "type": "select",
+          "default": "rainbow",
+          "options": [
+            {
+              "value": "rainbow",
+              "label": "Rainbow wave"
+            },
+            {
+              "value": "breathing",
+              "label": "Breathing violet"
+            },
+            {
+              "value": "ice",
+              "label": "Ice"
+            }
+          ]
+        },
+        {
+          "key": "speed",
+          "label": "Effect speed",
+          "type": "range",
+          "min": 0.2,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/rgb-setup.aw3d",
+      "preview": "https://awajeh.site/wallpapers/rgb-setup.jpg",
+      "size": 178129,
+      "sha256": "ad9162e13a34c5311c2fa6b5bb9d28b5a61c41b5c505d288211fff3e0fee07b9"
+    },
+    {
+      "id": "sky-city",
+      "name": "Sky City",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Above the clouds at sunset",
+      "description": "Glass megatowers rise above a sea of clouds at sunset, linked by skybridges, with air traffic gliding along orbital lanes.",
+      "category": "Futuristic Cities",
+      "accent": "#ffb38a",
+      "tags": [
+        "City",
+        "Future",
+        "Sunset"
+      ],
+      "params": [
+        {
+          "key": "traffic",
+          "label": "Air traffic",
+          "type": "range",
+          "min": 0,
+          "max": 1.5,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/sky-city.aw3d",
+      "preview": "https://awajeh.site/wallpapers/sky-city.jpg",
+      "size": 394919,
+      "sha256": "fa88aad22cf4541d3bfc8090724dab70e2e0f6b65de1ea53697c161179cb82ec"
+    },
+    {
+      "id": "ringed-giant",
+      "name": "Ringed Giant",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "A gas giant and its rings",
+      "description": "A banded gas giant with a vast ring system lit by a distant sun. The planet casts its shadow across the rings while a small moon circles slowly.",
+      "category": "Space",
+      "accent": "#e8c98f",
+      "tags": [
+        "Space",
+        "Planet",
+        "Rings"
+      ],
+      "params": [
+        {
+          "key": "palette",
+          "label": "Planet colours",
+          "type": "select",
+          "default": "gold",
+          "options": [
+            {
+              "value": "gold",
+              "label": "Gold"
+            },
+            {
+              "value": "ice",
+              "label": "Ice"
+            },
+            {
+              "value": "ember",
+              "label": "Ember"
+            }
+          ]
+        },
+        {
+          "key": "speed",
+          "label": "Rotation speed",
+          "type": "range",
+          "min": 0,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/ringed-giant.aw3d",
+      "preview": "https://awajeh.site/wallpapers/ringed-giant.jpg",
+      "size": 147391,
+      "sha256": "effce3cb886f0f7e33b6880bb44d955f36f76bbbaccbc61462421b0eb0f59224"
+    },
+    {
+      "id": "coral-depths",
+      "name": "Coral Depths",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Sunlight under the sea",
+      "description": "A sunlit coral reef seen from under the surface: caustics ripple over the sand, light shafts sway through the water, schools of fish circle the reef and bubbles rise.",
+      "category": "Nature & Ocean",
+      "accent": "#1aa7b8",
+      "tags": [
+        "Ocean",
+        "Underwater",
+        "Nature"
+      ],
+      "params": [
+        {
+          "key": "water",
+          "label": "Water",
+          "type": "select",
+          "default": "tropical",
+          "options": [
+            {
+              "value": "tropical",
+              "label": "Tropical"
+            },
+            {
+              "value": "deep",
+              "label": "Deep blue"
+            },
+            {
+              "value": "emerald",
+              "label": "Emerald"
+            }
+          ]
+        },
+        {
+          "key": "fish",
+          "label": "Fish",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/coral-depths.aw3d",
+      "preview": "https://awajeh.site/wallpapers/coral-depths.jpg",
+      "size": 181906,
+      "sha256": "b26e066bc85175a5aa3b446f6905e0fbb4f2ddb1f79e808ee5b3d3f37baf2ede"
+    },
+    {
+      "id": "arcane-portal",
+      "name": "Arcane Portal",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "A gate between worlds",
+      "description": "An ancient ring of carved stone on a ruined plateau at night. A swirling vortex fills it, glowing runes orbit the ring and rocks float into the starry sky.",
+      "category": "Fantasy",
+      "accent": "#4fc3ff",
+      "tags": [
+        "Fantasy",
+        "Magic",
+        "Night"
+      ],
+      "params": [
+        {
+          "key": "magic",
+          "label": "Magic",
+          "type": "select",
+          "default": "azure",
+          "options": [
+            {
+              "value": "azure",
+              "label": "Azure"
+            },
+            {
+              "value": "emerald",
+              "label": "Emerald"
+            },
+            {
+              "value": "inferno",
+              "label": "Inferno"
+            }
+          ]
+        },
+        {
+          "key": "power",
+          "label": "Portal power",
+          "type": "range",
+          "min": 0.3,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/arcane-portal.aw3d",
+      "preview": "https://awajeh.site/wallpapers/arcane-portal.jpg",
+      "size": 198360,
+      "sha256": "df9c0edef5b674c1dd7060d7a9ec76fe482c5b5a54452e4ee9734f7f9ffb1762"
+    },
+    {
+      "id": "liquid-chrome",
+      "name": "Liquid Chrome",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Molten metal, alive",
+      "description": "A mirror-finish blob of molten metal floats above a dark studio floor, its surface rippling and folding, reflecting softbox and coloured rim lights.",
+      "category": "Abstract 3D",
+      "accent": "#9fb4ff",
+      "tags": [
+        "Abstract",
+        "Metal",
+        "Studio"
+      ],
+      "params": [
+        {
+          "key": "finish",
+          "label": "Finish",
+          "type": "select",
+          "default": "chrome",
+          "options": [
+            {
+              "value": "chrome",
+              "label": "Chrome"
+            },
+            {
+              "value": "gold",
+              "label": "Gold"
+            },
+            {
+              "value": "obsidian",
+              "label": "Obsidian"
+            }
+          ]
+        },
+        {
+          "key": "flow",
+          "label": "Flow speed",
+          "type": "range",
+          "min": 0,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/liquid-chrome.aw3d",
+      "preview": "https://awajeh.site/wallpapers/liquid-chrome.jpg",
+      "size": 100228,
+      "sha256": "c136701c56cf96c3d3e37e1c67d5dc9ed729dcf27fa005ab8765a3aaad4694c3"
+    },
+    {
+      "id": "server-room",
+      "name": "Server Room",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "The heart of the network",
+      "description": "A long cold aisle between rows of server racks. Thousands of status LEDs blink with activity, light strips run along the ceiling and the camera glides down the aisle.",
+      "category": "Cybersecurity",
+      "accent": "#3db8ff",
+      "tags": [
+        "Cybersecurity",
+        "Servers",
+        "Data center"
+      ],
+      "params": [
+        {
+          "key": "lights",
+          "label": "LED colours",
+          "type": "select",
+          "default": "blue",
+          "options": [
+            {
+              "value": "blue",
+              "label": "Blue"
+            },
+            {
+              "value": "green",
+              "label": "Green"
+            },
+            {
+              "value": "red",
+              "label": "Red alert"
+            }
+          ]
+        },
+        {
+          "key": "activity",
+          "label": "Activity",
+          "type": "range",
+          "min": 0.2,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/server-room.aw3d",
+      "preview": "https://awajeh.site/wallpapers/server-room.jpg",
+      "size": 324231,
+      "sha256": "ff59aa342081fda1883083922648a362c5bd81c95f263d17d0a764b01daf4dc8"
+    },
+    {
+      "id": "language-worlds",
+      "name": "Language Worlds",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "A world for every language",
+      "description": "The name of your programming language glows as a hologram above a grid floor while panels of real code in that language orbit around it. Choose Python, C#, TypeScript, C++, SQL or Linux shell — each with its own colours.",
+      "category": "Programming",
+      "collection": "Languages",
+      "accent": "#4b8bfe",
+      "tags": [
+        "Programming",
+        "Code",
+        "Python",
+        "C#",
+        "TypeScript"
+      ],
+      "params": [
+        {
+          "key": "language",
+          "label": "Language",
+          "type": "select",
+          "default": "python",
+          "options": [
+            {
+              "value": "python",
+              "label": "Python"
+            },
+            {
+              "value": "csharp",
+              "label": "C#"
+            },
+            {
+              "value": "typescript",
+              "label": "TypeScript"
+            },
+            {
+              "value": "cpp",
+              "label": "C++"
+            },
+            {
+              "value": "sql",
+              "label": "SQL"
+            },
+            {
+              "value": "linux",
+              "label": "Linux shell"
+            }
+          ]
+        },
+        {
+          "key": "speed",
+          "label": "Orbit speed",
+          "type": "range",
+          "min": 0,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/language-worlds.aw3d",
+      "preview": "https://awajeh.site/wallpapers/language-worlds.jpg",
+      "size": 189592,
+      "sha256": "7e79815d383fe2ce72bbaa4bd1d30a7caf620857eaa3bfdb4e1d54c3cad38fea"
+    },
+    {
+      "id": "silicon-core",
+      "name": "Silicon Core",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Inside the processor",
+      "description": "A slow macro flight over a processor die: a grid of cores glowing with their own load, copper traces between them and pulses of light racing from core to core.",
+      "category": "Programming",
+      "collection": "Hardware",
+      "accent": "#5ae0ff",
+      "tags": [
+        "Hardware",
+        "CPU",
+        "Circuit"
+      ],
+      "params": [
+        {
+          "key": "scheme",
+          "label": "Colours",
+          "type": "select",
+          "default": "cyan",
+          "options": [
+            {
+              "value": "cyan",
+              "label": "Cyan"
+            },
+            {
+              "value": "amber",
+              "label": "Amber"
+            },
+            {
+              "value": "violet",
+              "label": "Violet"
+            }
+          ]
+        },
+        {
+          "key": "activity",
+          "label": "Activity",
+          "type": "range",
+          "min": 0.2,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/silicon-core.aw3d",
+      "preview": "https://awajeh.site/wallpapers/silicon-core.jpg",
+      "size": 246866,
+      "sha256": "1825f47b8f9f3a9d747c616b2e20ee0ab60fa4b3970dfdb3a575362460f1b271"
+    },
+    {
+      "id": "security-core",
+      "name": "Security Core",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Encrypted and untouchable",
+      "description": "An encrypted energy core shielded by counter-rotating rings of hexagonal plates. Threats approach from every side and burst against the outer ring while a scan beam sweeps around the core.",
+      "category": "Cybersecurity",
+      "accent": "#5ae0ff",
+      "tags": [
+        "Cybersecurity",
+        "Shield",
+        "Energy"
+      ],
+      "params": [
+        {
+          "key": "mode",
+          "label": "Mode",
+          "type": "select",
+          "default": "secure",
+          "options": [
+            {
+              "value": "secure",
+              "label": "Secure (blue)"
+            },
+            {
+              "value": "alert",
+              "label": "Alert (red)"
+            },
+            {
+              "value": "stealth",
+              "label": "Stealth (green)"
+            }
+          ]
+        },
+        {
+          "key": "threats",
+          "label": "Threat level",
+          "type": "range",
+          "min": 0,
+          "max": 1.5,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/security-core.aw3d",
+      "preview": "https://awajeh.site/wallpapers/security-core.jpg",
+      "size": 175635,
+      "sha256": "402edd411c6e70531cb69917651dabbf89fcdf06f8b9a85c8ca4587477e92a90"
+    },
+    {
+      "id": "cyber-glitch",
+      "name": "Cyber Glitch",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Signal corrupted",
+      "description": "A neon sculpture caught in a corrupted signal: slices tear sideways, colour channels split and blocks of digital noise flicker across a scanline backdrop in short, violent bursts.",
+      "category": "Cybersecurity",
+      "accent": "#ff2d95",
+      "tags": [
+        "Glitch",
+        "Neon",
+        "Cyber"
+      ],
+      "params": [
+        {
+          "key": "palette",
+          "label": "Colours",
+          "type": "select",
+          "default": "neon",
+          "options": [
+            {
+              "value": "neon",
+              "label": "Neon pink / cyan"
+            },
+            {
+              "value": "toxic",
+              "label": "Toxic green"
+            },
+            {
+              "value": "inferno",
+              "label": "Inferno"
+            }
+          ]
+        },
+        {
+          "key": "glitch",
+          "label": "Glitch strength",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/cyber-glitch.aw3d",
+      "preview": "https://awajeh.site/wallpapers/cyber-glitch.jpg",
+      "size": 349758,
+      "sha256": "bba5f7c20c39da59152e3bf20bd8b36102abbda5f21c05e6e11011ca44cf0a50"
+    },
+    {
+      "id": "data-tunnel",
+      "name": "Data Tunnel",
+      "version": "1.0.0",
+      "engine": 1,
+      "author": "Awajeh",
+      "license": "Awajeh 3D wallpaper licence",
+      "tagline": "Fly through the stream",
+      "description": "An endless flight through a bending tunnel built from streams of binary and hex. Columns of data scroll along the walls and rings of light rush past.",
+      "category": "Programming",
+      "collection": "Digital Universe",
+      "accent": "#3da9ff",
+      "tags": [
+        "Programming",
+        "Data",
+        "Tunnel"
+      ],
+      "params": [
+        {
+          "key": "color",
+          "label": "Colours",
+          "type": "select",
+          "default": "blue",
+          "options": [
+            {
+              "value": "blue",
+              "label": "Blue / violet"
+            },
+            {
+              "value": "matrix",
+              "label": "Matrix green"
+            },
+            {
+              "value": "sunset",
+              "label": "Sunset"
+            }
+          ]
+        },
+        {
+          "key": "speed",
+          "label": "Speed",
+          "type": "range",
+          "min": 0.2,
+          "max": 3,
+          "step": 0.05,
+          "default": 1
+        }
+      ],
+      "url": "https://awajeh.site/wallpapers/data-tunnel.aw3d",
+      "preview": "https://awajeh.site/wallpapers/data-tunnel.jpg",
+      "size": 316064,
+      "sha256": "0a814839b153de1337bc133781fb08c918053e11e996809e509e76b1c6ae2148"
+    }
+  ]
+}
