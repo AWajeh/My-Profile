@@ -1,9 +1,9 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "url": "https://awajeh.site/downloads/Awajeh3D-Setup.exe",
   "page": "https://awajeh.site/#app=awajeh-3d",
-  "sha256": "c4b2d341abfbef1dd997e6d3edd196507b72773e23f3fa089538487d91855fe7",
-  "size": 76580253,
+  "sha256": "d029ea83436976664c30b4bccf13aee0e21bbc22aeddfd39933eddbf4c7f8772",
+  "size": 76677265,
   "releasedAt": "2026-10-31",
-  "notes": "Wallpapers are now separate packages: the app is smaller and new wallpapers arrive without updating the app\nLibrary: download, update and remove wallpapers, see their size, install .aw3d packages\nTaskbar customisation and real program icons in the dock"
+  "notes": "The Windows wallpaper now matches your Awajeh 3D wallpaper (UAC prompts, sign-in, desktop without the app)\nPer-monitor stills on multi-monitor setups"
 }

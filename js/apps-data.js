@@ -36,7 +36,7 @@ window.APPS = [
     kind: "app",
     platforms: ["Windows 10", "Windows 11"],
     price: "Free",
-    version: "1.2.0",
+    version: "1.2.1",
     status: "available",
     featured: true,
     logo: "assets/apps/awajeh-3d/logo.png",
