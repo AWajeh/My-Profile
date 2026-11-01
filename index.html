@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <script>document.documentElement.classList.add('js');</script>
+<script>/* the apps moved to /apps/ — keep old #apps, #games and #app=<id> links working */
+if (/^#(apps|games|app=)/.test(location.hash)) location.replace('/apps/' + (/^#app=/.test(location.hash) ? location.hash : ''));</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>WAjeh — Junior QA Engineer</title>
@@ -10,26 +12,12 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="WAjeh — Junior QA Engineer">
-<meta property="og:description" content="Junior QA Engineer: manual testing, test design and bug reporting. QA projects on Android, iOS and the web. Home of my apps, including Awajeh 3D — animated 3D wallpapers for Windows.">
+<meta property="og:description" content="Junior QA Engineer: manual testing, test design and bug reporting. QA projects on Android, iOS and the web.">
 <meta property="og:url" content="https://awajeh.site/">
-<meta property="og:image" content="https://awajeh.site/assets/apps/awajeh-3d/og.jpg">
-<meta property="og:image:alt" content="Awajeh 3D — animated 3D wallpapers for Windows">
-<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://awajeh.site/assets/profile.jpg">
+<meta property="og:image:alt" content="Wajeh Amash portrait">
+<meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://awajeh.site/">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Awajeh 3D",
-  "applicationCategory": "DesktopEnhancementApplication",
-  "operatingSystem": "Windows 10, Windows 11",
-  "description": "Immersive animated 3D wallpapers, interactive desktop widgets and customizable shortcut docks for Windows.",
-  "image": "https://awajeh.site/assets/apps/awajeh-3d/fujiyama.jpg",
-  "url": "https://awajeh.site/#app=awajeh-3d",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  "author": { "@type": "Person", "name": "WAjeh" }
-}
-</script>
 
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 
@@ -37,7 +25,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css?v=3">
+<link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body>
 
@@ -59,7 +47,6 @@
       <a href="#education" class="nav-link" data-nav>./education</a>
       <a href="#projects" class="nav-link" data-nav>./projects</a>
       <a href="#contact" class="nav-link" data-nav>./contact</a>
-      <a href="#apps" class="nav-link" data-nav>./apps</a>
     </nav>
 
     <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
@@ -630,35 +617,12 @@
           <span class="contact-label">Email</span>
           <span class="contact-value">amashwajeh5@gmail.com</span>
         </a>
-      </div>
-    </div>
-  </section>
 
-  <!-- MY APPS: cards are generated from js/apps-data.js (installers for Last Lie live in /downloads) -->
-  <section id="apps" class="section apps-section" aria-labelledby="apps-title">
-    <span id="games" class="anchor-alias" aria-hidden="true"></span>
-    <div class="section-inner">
-      <p class="section-kicker reveal">&gt; ls ./apps</p>
-      <h2 class="section-title apps-title reveal" id="apps-title"><span class="apps-title-glow">MY APPS</span></h2>
-      <p class="contact-sub reveal">Desktop software, games and web projects I build and publish.</p>
-
-      <div class="apps-filters reveal" id="apps-filters" role="toolbar" aria-label="Filter apps"></div>
-
-      <div class="apps-grid" id="apps-grid">
-        <noscript>
-          <div class="game-card">
-            <h3 class="game-title">Awajeh 3D</h3>
-            <p class="game-sub">Windows Desktop Application</p>
-            <div class="game-downloads"><a href="downloads/Awajeh3D-Setup.exe" class="btn btn-primary" download>Download for Windows ↓</a></div>
-          </div>
-          <div class="game-card">
-            <h3 class="game-title">Last Lie Beta</h3>
-            <div class="game-downloads">
-              <a href="downloads/LastLie-Setup.exe" class="btn btn-primary" download>Download for Windows ↓</a>
-              <a href="downloads/LastLie-Setup.run" class="btn btn-ghost" download>Download for Linux ↓</a>
-            </div>
-          </div>
-        </noscript>
+        <a href="/apps/" class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+          <span class="contact-label">My Apps</span>
+          <span class="contact-value">Awajeh 3D, games &amp; more →</span>
+        </a>
       </div>
     </div>
   </section>
@@ -672,13 +636,6 @@
 
 <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
 
-<dialog id="app-dialog" class="app-dialog" aria-labelledby="app-dialog-title">
-  <button type="button" class="app-dialog-close" aria-label="Close details">✕</button>
-  <div class="app-dialog-body"></div>
-</dialog>
-
-<script src="js/apps-data.js?v=2"></script>
-<script src="js/apps.js?v=2"></script>
-<script src="js/script.js?v=2"></script>
+<script src="js/script.js?v=3"></script>
 </body>
 </html>

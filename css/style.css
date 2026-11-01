@@ -752,7 +752,7 @@ html.js .reveal.is-visible {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 22px;
 }
 
@@ -905,6 +905,8 @@ html.js .reveal.is-visible {
 .anchor-alias { position: absolute; top: -80px; }
 
 .apps-title { margin-bottom: 18px; line-height: 1.15; }
+.apps-page { padding-top: 120px; min-height: 100vh; }
+.apps-back { margin-top: 48px; text-align: center; }
 .apps-title-glow {
   background: linear-gradient(90deg, var(--green-bright), var(--green) 55%, var(--green-dim));
   -webkit-background-clip: text;

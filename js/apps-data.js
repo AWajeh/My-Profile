@@ -39,11 +39,11 @@ window.APPS = [
     version: "1.2.0",
     status: "available",
     featured: true,
-    logo: "assets/apps/awajeh-3d/logo.png",
+    logo: "/assets/apps/awajeh-3d/logo.png",
     tagline: "Animated 3D wallpapers for your Windows desktop",
     description:
       "Experience your desktop differently. Awajeh 3D brings immersive animated 3D wallpapers, interactive desktop widgets, customizable shortcut docks, and advanced desktop personalization into one application.",
-    downloads: [{ label: "DOWNLOAD FOR WINDOWS ↓", url: "downloads/Awajeh3D-Setup.exe", platform: "Windows", primary: true, size: "79 MB" }],
+    downloads: [{ label: "DOWNLOAD FOR WINDOWS ↓", url: "/downloads/Awajeh3D-Setup.exe", platform: "Windows", primary: true, size: "79 MB" }],
     details: {
       overview:
         "Awajeh 3D runs real-time 3D scenes directly behind your desktop icons. Every wallpaper is a live Three.js / WebGL environment with its own lighting, camera movement and particles, not a looping video. It also adds a shortcut dock and live widgets, and it automatically pauses when a game or fullscreen app is running.",
@@ -57,10 +57,10 @@ window.APPS = [
         "Starts with Windows, lives in the system tray, works fully offline. No account needed."
       ],
       gallery: [
-        { src: "assets/apps/awajeh-3d/fujiyama.jpg", alt: "Fujiyama Dawn: mountain, lake, torii gate and cherry blossoms at dawn", caption: "Fujiyama Dawn" },
-        { src: "assets/apps/awajeh-3d/cyberpunk.jpg", alt: "Neon Rain: a rainy neon-lit futuristic city street at night", caption: "Neon Rain" },
-        { src: "assets/apps/awajeh-3d/deepspace.jpg", alt: "Deep Space: a ringed gas giant, asteroid belt and nebula", caption: "Deep Space" },
-        { src: "assets/apps/awajeh-3d/abstract.jpg", alt: "Monolith: floating chrome, gold and glass shapes around a liquid metal core", caption: "Monolith" }
+        { src: "/assets/apps/awajeh-3d/fujiyama.jpg", alt: "Fujiyama Dawn: mountain, lake, torii gate and cherry blossoms at dawn", caption: "Fujiyama Dawn" },
+        { src: "/assets/apps/awajeh-3d/cyberpunk.jpg", alt: "Neon Rain: a rainy neon-lit futuristic city street at night", caption: "Neon Rain" },
+        { src: "/assets/apps/awajeh-3d/deepspace.jpg", alt: "Deep Space: a ringed gas giant, asteroid belt and nebula", caption: "Deep Space" },
+        { src: "/assets/apps/awajeh-3d/abstract.jpg", alt: "Monolith: floating chrome, gold and glass shapes around a liquid metal core", caption: "Monolith" }
       ],
       screenshots: [],
       requirements: [
@@ -88,12 +88,12 @@ window.APPS = [
     price: "Free",
     version: "Beta",
     status: "beta",
-    logo: "assets/last-lie-logo.jpg",
+    logo: "/assets/last-lie-logo.jpg",
     logoAlt: "Last Lie game logo",
     tagline: "Built with AI assistance",
     downloads: [
-      { label: "Download for Windows ↓", url: "downloads/LastLie-Setup.exe", platform: "Windows", primary: true },
-      { label: "Download for Linux ↓", url: "downloads/LastLie-Setup.run", platform: "Linux" }
+      { label: "Download for Windows ↓", url: "/downloads/LastLie-Setup.exe", platform: "Windows", primary: true },
+      { label: "Download for Linux ↓", url: "/downloads/LastLie-Setup.run", platform: "Linux" }
     ],
     installHtml:
       '<p><strong>Windows</strong></p><ol><li>Download <code>LastLie-Setup.exe</code> and double-click it.</li><li>If a blue <strong>Windows SmartScreen</strong> window appears, click <strong>More info</strong> → <strong>Run anyway</strong> (expected for an unsigned early build).</li><li>Choose a language (Arabic / English), then <strong>Next</strong> → <strong>Install</strong>. No admin rights needed.</li><li>Launch the game from the desktop or Start menu shortcut.</li></ol><p>To uninstall: Settings → Apps → Last Lie → Uninstall.</p><p><strong>Linux</strong></p><ol><li>Download <code>LastLie-Setup.run</code>.</li><li>Open a terminal in the download folder and run:<br><code>chmod +x LastLie-Setup.run &amp;&amp; ./LastLie-Setup.run</code></li><li>Launch the game from your app menu, the desktop icon, or by typing <code>lastlie</code>. No <code>sudo</code> needed.</li></ol><p>To uninstall: <code>~/.local/share/lastlie/uninstall.sh</code></p>',
