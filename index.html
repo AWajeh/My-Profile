@@ -37,7 +37,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css?v=2">
+<link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body>
 
@@ -56,6 +56,7 @@
       <a href="#home" class="nav-link" data-nav>./home</a>
       <a href="#about" class="nav-link" data-nav>./about</a>
       <a href="#skills" class="nav-link" data-nav>./skills</a>
+      <a href="#education" class="nav-link" data-nav>./education</a>
       <a href="#projects" class="nav-link" data-nav>./projects</a>
       <a href="#contact" class="nav-link" data-nav>./contact</a>
       <a href="#apps" class="nav-link" data-nav>./apps</a>
@@ -81,7 +82,8 @@
 
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">View Projects</a>
-          <a href="assets/CV.pdf" class="btn btn-ghost" download>Download CV ↓</a>
+          <a href="assets/CV.pdf" class="btn btn-ghost" download="Wajeh_Amash_CV_EN.pdf">Download CV ↓</a>
+          <a href="assets/CV_HE.pdf" class="btn btn-ghost" download="Wajeh_Amash_CV_HE.pdf" lang="he">קורות חיים ↓</a>
         </div>
 
         <div class="hero-socials">
@@ -90,6 +92,9 @@
           </a>
           <a href="https://www.linkedin.com/in/wajeh-amash-962924424/" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="8" y1="11" x2="8" y2="16"/><line x1="8" y1="8" x2="8" y2="8"/><line x1="12" y1="16" x2="12" y2="11"/><path d="M12 13c0-1.1.9-2 2-2s2 .9 2 2v3"/></svg>
+          </a>
+          <a href="https://github.com/AWajeh" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
           </a>
           <a href="https://www.etsy.com/shop/AwajehLabs" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Etsy shop: AwajehLabs">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 9l1.5-5h13L20 9"/><path d="M4 9a2.67 2.67 0 0 0 5.33 0 2.67 2.67 0 0 0 5.34 0A2.67 2.67 0 0 0 20 9"/><path d="M5 12.5V20h14v-7.5"/><path d="M10 20v-4h4v4"/></svg>
@@ -103,7 +108,7 @@
       <div class="hero-visual reveal">
         <div class="avatar-ring">
           <div class="avatar-ring-spin"></div>
-          <img src="assets/profile.jpg" alt="WAjeh portrait" class="avatar-img">
+          <img src="assets/profile.jpg" alt="Wajeh Amash portrait" class="avatar-img">
         </div>
 
         <div class="terminal-card" id="terminal-card">
@@ -135,8 +140,9 @@
             reproduction steps and screenshots, and manage the work in <strong>Jira</strong> and <strong>TestRail</strong>.
           </p>
           <p>
-            For the <strong>Wolt</strong> app I wrote and ran 480 test cases on Android and on a real iPhone, and documented
-            55 bugs, including the differences between the two platforms. I'm studying Software Testing at The Automation
+            For the <strong>Wolt</strong> app I wrote and ran 480 test cases on Android and on a real iPhone — functional,
+            negative, edge-case, localization and accessibility — and documented 55 bugs, including the differences between
+            the two platforms. I'm studying Software Testing at The Automation
             College — the manual QA stage is done, and <strong>test automation</strong> (Selenium, Playwright, Cypress) is the next stage.
           </p>
           <p>
@@ -188,15 +194,16 @@
               <span class="terminal-title">profile.json</span>
             </div>
             <pre class="code-body"><code><span class="tok-brace">{</span>
-  <span class="tok-key">"name"</span>: <span class="tok-str">"WAjeh"</span>,
+  <span class="tok-key">"name"</span>: <span class="tok-str">"Wajeh Amash"</span>,
   <span class="tok-key">"role"</span>: <span class="tok-str">"Junior QA Engineer"</span>,
   <span class="tok-key">"focus"</span>: [<span class="tok-str">"Manual Testing"</span>, <span class="tok-str">"Functional &amp; Regression"</span>, <span class="tok-str">"Bug Reporting"</span>],
-  <span class="tok-key">"tools"</span>: [<span class="tok-str">"Jira"</span>, <span class="tok-str">"TestRail"</span>, <span class="tok-str">"Postman"</span>, <span class="tok-str">"Git"</span>],
+  <span class="tok-key">"tools"</span>: [<span class="tok-str">"Jira"</span>, <span class="tok-str">"TestRail"</span>, <span class="tok-str">"Chrome DevTools"</span>, <span class="tok-str">"Git"</span>],
   <span class="tok-key">"languages"</span>: [<span class="tok-str">"C#"</span>, <span class="tok-str">"SQL"</span>, <span class="tok-str">"Python (beginner)"</span>, <span class="tok-str">"HTML/CSS"</span>],
   <span class="tok-key">"studying"</span>: <span class="tok-str">"Software Testing — The Automation College"</span>,
   <span class="tok-key">"next"</span>: <span class="tok-str">"Test Automation (Selenium, Playwright, Cypress)"</span>,
   <span class="tok-key">"certification"</span>: <span class="tok-str">"Technological Certification — Systems Planning &amp; Programming"</span>,
-  <span class="tok-key">"based_in"</span>: <span class="tok-str">"Israel"</span>,
+  <span class="tok-key">"based_in"</span>: <span class="tok-str">"Jisr az-Zarqa, Israel"</span>,
+  <span class="tok-key">"speaks"</span>: [<span class="tok-str">"Arabic"</span>, <span class="tok-str">"Hebrew"</span>, <span class="tok-str">"English"</span>],
   <span class="tok-key">"also"</span>: <span class="tok-str">"Digital products seller (AwajehLabs on Etsy)"</span>,
   <span class="tok-key">"status"</span>: <span class="tok-str tok-status">"Available for opportunities"</span>
 <span class="tok-brace">}</span></code></pre>
@@ -221,6 +228,7 @@
             <li>Functional &amp; Regression Testing</li>
             <li>Negative &amp; Edge-Case Testing</li>
             <li>Localization &amp; RTL Testing</li>
+            <li>Accessibility Testing</li>
             <li>Android / iOS Comparison</li>
             <li>Bug Reporting &amp; Tracking</li>
           </ul>
@@ -284,10 +292,11 @@
         <div class="skill-card reveal">
           <h3 class="skill-cat"><span class="cat-prompt">#</span> Tools</h3>
           <ul class="skill-list">
-            <li>Jira</li>
-            <li>TestRail</li>
-            <li>Postman</li>
+            <li>Jira &amp; TestRail</li>
+            <li>Chrome DevTools</li>
             <li>Git &amp; GitHub</li>
+            <li>VS Code</li>
+            <li>Claude Code &amp; Codex</li>
           </ul>
         </div>
 
@@ -301,6 +310,8 @@
           </ul>
         </div>
 
+        <!-- Not on the CV; restore by unwrapping the <template>. -->
+        <template data-hidden="not-on-cv">
         <div class="skill-card reveal">
           <h3 class="skill-cat"><span class="cat-prompt">#</span> Web Development</h3>
           <ul class="skill-list">
@@ -332,6 +343,7 @@
             <li>Templates &amp; Digital Downloads</li>
           </ul>
         </div>
+        </template>
 
       </div>
 
@@ -340,6 +352,47 @@
         <a href="https://awajeh.github.io/ai-skills-showcase/" target="_blank" rel="noopener noreferrer">→ See my AI &amp; LLM engineering skills in detail</a>
       </p>
       </template>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="section-inner">
+      <p class="section-kicker reveal">&gt; cat education.log</p>
+      <h2 class="section-title reveal">Education &amp; Certifications</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> The Automation College</h3>
+          <ul class="skill-list">
+            <li>Software Testing — Manual QA + Automation</li>
+            <li>In progress · Manual QA completed</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> Technological Certificate</h3>
+          <ul class="skill-list">
+            <li>Systems Planning &amp; Programming</li>
+            <li>2025</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> Full Bagrut</h3>
+          <ul class="skill-list">
+            <li>Comprehensive High School, Fureidis</li>
+            <li>Computer Science &amp; Chemistry · 2025</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3 class="skill-cat"><span class="cat-prompt">#</span> Technion, Haifa</h3>
+          <ul class="skill-list">
+            <li>Python Course</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -360,7 +413,7 @@
             <h3>Wolt — Mobile App QA</h3>
             <p>Full manual QA project for the Wolt delivery app on two platforms: Android (BlueStacks) and a real iPhone 17 Pro Max. 480 test cases in TestRail, 55 bugs documented in Jira with steps and screenshots, and a comparison of what breaks on Android vs. iOS. Delivered as a bilingual Software Test Report.</p>
             <div class="tags">
-              <span>Manual Testing</span><span>Android</span><span>iOS</span><span>Localization / RTL</span><span>TestRail</span><span>Jira</span>
+              <span>Manual Testing</span><span>Android</span><span>iOS</span><span>Localization / RTL</span><span>Accessibility</span><span>TestRail</span><span>Jira</span>
             </div>
             <div class="project-links">
               <a href="assets/reports/STR_Wolt_EN.pdf" target="_blank" rel="noopener" aria-label="Download the Wolt test report in English (PDF)">Report EN ↓</a>
@@ -556,6 +609,12 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="8" y1="11" x2="8" y2="16"/><line x1="8" y1="8" x2="8" y2="8"/><line x1="12" y1="16" x2="12" y2="11"/><path d="M12 13c0-1.1.9-2 2-2s2 .9 2 2v3"/></svg>
           <span class="contact-label">LinkedIn</span>
           <span class="contact-value">Connect with me</span>
+        </a>
+
+        <a href="https://github.com/AWajeh" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/AWajeh</span>
         </a>
 
         <a href="https://www.etsy.com/shop/AwajehLabs" target="_blank" rel="noopener noreferrer" class="contact-card">
