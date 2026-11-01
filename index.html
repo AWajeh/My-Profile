@@ -25,7 +25,7 @@ if (/^#(apps|games|app=)/.test(location.hash)) location.replace('/apps/' + (/^#a
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css?v=6">
+<link rel="stylesheet" href="css/style.css?v=7">
 </head>
 <body>
 
@@ -46,6 +46,8 @@ if (/^#(apps|games|app=)/.test(location.hash)) location.replace('/apps/' + (/^#a
       <a href="#skills" class="nav-link" data-nav>./skills</a>
       <a href="#education" class="nav-link" data-nav>./education</a>
       <a href="#projects" class="nav-link" data-nav>./projects</a>
+      <a href="#explorer" class="nav-link" data-nav>./explorer</a>
+      <a href="#terminal" class="nav-link" data-nav>./terminal</a>
       <a href="#contact" class="nav-link" data-nav>./contact</a>
     </nav>
 
@@ -458,7 +460,6 @@ if (/^#(apps|games|app=)/.test(location.hash)) location.replace('/apps/' + (/^#a
               <span>JavaScript</span><span>Web App</span><span>File Conversion</span><span>Client-side Processing</span>
             </div>
             <div class="project-links">
-              <span class="link-pending">Source · not published yet</span>
               <a href="https://omniconvert-pro.website/" target="_blank" rel="noopener noreferrer" aria-label="View live site">Live Site ↗</a>
             </div>
           </div>
@@ -580,6 +581,62 @@ if (/^#(apps|games|app=)/.test(location.hash)) location.replace('/apps/' + (/^#a
     </div>
   </section>
 
+  <!-- PROJECT EXPLORER: tree built by js/explorer.js from the project cards above and js/apps-data.js -->
+  <section id="explorer" class="section">
+    <div class="section-inner">
+      <p class="section-kicker reveal">&gt; tree ./projects</p>
+      <h2 class="section-title reveal">Project Explorer</h2>
+
+      <div class="px code-window reveal" id="project-explorer">
+        <div class="terminal-bar">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="terminal-title">explorer — projects</span>
+        </div>
+        <div class="px-body">
+          <nav class="px-tree" aria-label="Projects">
+            <p class="px-tree-head" id="px-tree-head">PROJECTS</p>
+            <ul role="tree" id="px-tree" aria-labelledby="px-tree-head"></ul>
+          </nav>
+          <article class="px-view" id="px-view" aria-live="polite">
+            <noscript><p class="px-text">The Project Explorer needs JavaScript. All projects are listed in the Projects section above.</p></noscript>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TERMINAL: commands handled by js/terminal.js, answers read from this page -->
+  <section id="terminal" class="section">
+    <div class="section-inner">
+      <p class="section-kicker reveal">&gt; ./terminal --interactive</p>
+      <h2 class="section-title reveal">Terminal</h2>
+
+      <div class="dev-terminal code-window reveal" id="dev-terminal">
+        <div class="terminal-bar">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="terminal-title">wajeh@awajeh: ~</span>
+        </div>
+        <div class="dt-screen" id="dt-screen">
+          <div id="dt-output" role="log" aria-live="polite" aria-label="Terminal output"></div>
+          <form class="dt-input-row" id="dt-form" autocomplete="off">
+            <label for="dt-input" class="dt-prompt"><span class="dt-prompt-user">wajeh@awajeh</span>:~$</label>
+            <input id="dt-input" class="dt-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="send" aria-label="Type a terminal command, for example help">
+          </form>
+          <noscript><p class="dt-line">The terminal needs JavaScript. Everything it shows is also in the sections above.</p></noscript>
+        </div>
+        <div class="dt-chips" role="group" aria-label="Quick commands">
+          <button type="button" class="dt-chip" data-cmd="help">help</button>
+          <button type="button" class="dt-chip" data-cmd="whoami">whoami</button>
+          <button type="button" class="dt-chip" data-cmd="skills">skills</button>
+          <button type="button" class="dt-chip" data-cmd="projects">projects</button>
+          <button type="button" class="dt-chip" data-cmd="qa">qa</button>
+          <button type="button" class="dt-chip" data-cmd="contact">contact</button>
+          <button type="button" class="dt-chip" data-cmd="clear">clear</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- CONTACT -->
   <section id="contact" class="section">
     <div class="section-inner">
@@ -636,6 +693,9 @@ if (/^#(apps|games|app=)/.test(location.hash)) location.replace('/apps/' + (/^#a
 
 <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
 
+<script src="/js/apps-data.js?v=5"></script>
+<script src="js/explorer.js?v=1"></script>
+<script src="js/terminal.js?v=1"></script>
 <script src="js/script.js?v=3"></script>
 </body>
 </html>
