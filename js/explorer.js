@@ -1,8 +1,8 @@
 /* ============================================
    PROJECT EXPLORER — #explorer section
    A VS Code style tree of the projects. The content is read from the
-   project cards on this page and from js/apps-data.js, so nothing here
-   needs to be kept in sync by hand.
+   project cards on this page, so nothing here needs to be kept in sync
+   by hand.
 ============================================ */
 (function () {
   "use strict";
@@ -33,26 +33,11 @@
     return { id: slug(name), name: name, badge: badge, group: isQA ? "qa-projects" : "web-projects", files: files };
   }
 
-  function fromApp(app) {
-    var d = app.details || {};
-    var files = [{ id: "overview", label: "README.md", title: "Overview", type: "text", body: app.description || app.tagline }];
-    if (d.features && d.features.length) files.push({ id: "features", label: "features.md", title: "Features", type: "list", body: d.features });
-    else if (app.note) files.push({ id: "features", label: "notes.md", title: "Notes", type: "text", body: (app.noteLabel ? app.noteLabel + " " : "") + app.note });
-    files.push({ id: "stack", label: "platforms.md", title: "Platforms", type: "tags", body: [app.category].concat(app.platforms || []) });
-    var links = [{ label: app.details ? "Details & download" : "Open on the apps page", href: "/apps/" + (app.details ? "#app=" + app.id : "") }];
-    (app.downloads || []).forEach(function (dl) {
-      if (dl.url) links.push({ label: dl.platform ? "Download for " + dl.platform : clean(dl.label), href: dl.url, download: true });
-    });
-    files.push({ id: "links", label: "links.md", title: "Links", type: "links", body: links });
-    var status = app.status && app.status !== "available" ? app.status.replace(/-/g, " ") : (app.version ? "v" + String(app.version).replace(/^v/i, "") : "");
-    return { id: "app-" + app.id, name: app.name, badge: status.toUpperCase(), group: "apps", files: files };
-  }
-
-  var projects = $$("#projects .project-card").map(fromCard).concat((window.APPS || []).map(fromApp));
+  // the apps have their own page (/apps), so the explorer only shows the projects on this page
+  var projects = $$("#projects .project-card").map(fromCard);
   var GROUPS = [
     { id: "qa-projects", label: "qa-projects" },
-    { id: "web-projects", label: "web-projects" },
-    { id: "apps", label: "apps" }
+    { id: "web-projects", label: "web-projects" }
   ].filter(function (g) { return projects.some(function (p) { return p.group === g.id; }); });
 
   /* ---------- icons (inline, no icon library) ---------- */
