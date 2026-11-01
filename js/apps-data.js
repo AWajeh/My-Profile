@@ -38,7 +38,6 @@ window.APPS = [
     price: "Free",
     version: "1.2.0",
     status: "available",
-    featured: true,
     logo: "/assets/apps/awajeh-3d/logo.png",
     tagline: "Animated 3D wallpapers for your Windows desktop",
     description:
@@ -92,8 +91,8 @@ window.APPS = [
     logoAlt: "Last Lie game logo",
     tagline: "Built with AI assistance",
     downloads: [
-      { label: "Download for Windows ↓", url: "/downloads/LastLie-Setup.exe", platform: "Windows", primary: true },
-      { label: "Download for Linux ↓", url: "/downloads/LastLie-Setup.run", platform: "Linux" }
+      { label: "Windows ↓", url: "/downloads/LastLie-Setup.exe", platform: "Windows", primary: true },
+      { label: "Linux ↓", url: "/downloads/LastLie-Setup.run", platform: "Linux" }
     ],
     installHtml:
       '<p><strong>Windows</strong></p><ol><li>Download <code>LastLie-Setup.exe</code> and double-click it.</li><li>If a blue <strong>Windows SmartScreen</strong> window appears, click <strong>More info</strong> → <strong>Run anyway</strong> (expected for an unsigned early build).</li><li>Choose a language (Arabic / English), then <strong>Next</strong> → <strong>Install</strong>. No admin rights needed.</li><li>Launch the game from the desktop or Start menu shortcut.</li></ol><p>To uninstall: Settings → Apps → Last Lie → Uninstall.</p><p><strong>Linux</strong></p><ol><li>Download <code>LastLie-Setup.run</code>.</li><li>Open a terminal in the download folder and run:<br><code>chmod +x LastLie-Setup.run &amp;&amp; ./LastLie-Setup.run</code></li><li>Launch the game from your app menu, the desktop icon, or by typing <code>lastlie</code>. No <code>sudo</code> needed.</li></ol><p>To uninstall: <code>~/.local/share/lastlie/uninstall.sh</code></p>',
