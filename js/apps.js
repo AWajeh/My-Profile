@@ -133,13 +133,14 @@
     var title = el("h3", { class: "app-title", id: "app-title-" + app.id, text: app.name });
     var children = [logo(app), title, el("p", { class: "app-tagline", text: app.tagline }), meta(app)];
     if (app.description) children.push(el("p", { class: "app-desc", text: app.description }));
-    children.push(downloadButtons(app));
+    var note = !app.note ? null : el("p", { class: "game-note" }, [app.noteLabel ? el("strong", { text: app.noteLabel }) : null, app.noteLabel ? " " : null, app.note]);
+    // the note goes inside the install panel when there is one, so the cards stay short
     if (app.installHtml) {
-      children.push(el("details", { class: "game-install" }, [el("summary", { text: "How to install" }), el("div", { html: app.installHtml })]));
+      children.push(el("details", { class: "game-install" }, [el("summary", { text: "How to install" }), el("div", { html: app.installHtml }), note]));
+    } else if (note) {
+      children.push(note);
     }
-    if (app.note) {
-      children.push(el("p", { class: "game-note" }, [app.noteLabel ? el("strong", { text: app.noteLabel }) : null, app.noteLabel ? " " : null, app.note]));
-    }
+    children.push(downloadButtons(app)); // last, so the buttons line up at the bottom of every card
     var soon = app.status === "coming-soon" || app.status === "in-development";
     return el("article", { class: "app-card game-card" + (soon ? " game-card-soon" : "") + " reveal", id: "app-" + app.id, "data-kind": app.kind }, children);
   }
