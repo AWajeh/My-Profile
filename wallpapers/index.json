@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-02T19:43:08.949Z",
+  "updated": "2026-11-02T19:58:27.970Z",
   "wallpapers": [
     {
       "id": "fujiyama",
@@ -3037,11 +3037,10 @@
     {
       "id": "bernabeu-night-flight",
       "name": "SANTIAGO BERNABÉU – NIGHT FLIGHT",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "engine": 1,
       "author": "Awajeh",
       "license": "Fan wallpaper for personal use",
-      "credit": "Aerial photograph supplied by the user. Fan wallpaper, not affiliated with Real Madrid C.F.",
       "tagline": "The new Bernabéu from above, alive at night",
       "description": "The real aerial photo of the Santiago Bernabéu at night, turned into a living 3D scene: a depth map lifts the roof above the streets and sinks the bowl to the pitch, so the drone camera and your mouse move through it with real parallax. Traffic flows on the real streets, a wave of light runs around the stadium skin, phone flashes sparkle in the stands and the city windows twinkle. Click to fly down towards the pitch; click again to rise.",
       "category": "Football",
@@ -3123,8 +3122,8 @@
       },
       "url": "https://awajeh.site/wallpapers/bernabeu-night-flight.aw3d",
       "preview": "https://awajeh.site/wallpapers/bernabeu-night-flight.jpg",
-      "size": 6714956,
-      "sha256": "d02c8634d7bb333baefd1099b4b66bb3bb8b55d08fcd9f2c62d8d6cb8ac0b67d"
+      "size": 6715231,
+      "sha256": "08e3bc4d23b07e5f8c031c7699d8b98fc559bfae4be7ff4b1f95edc32d75ff4a"
     },
     {
       "id": "royal-dressing-room",
