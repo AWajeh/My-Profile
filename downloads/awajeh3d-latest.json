@@ -1,9 +1,9 @@
 {
-  "version": "1.2.1",
+  "version": "1.3.0",
   "url": "https://awajeh.site/downloads/Awajeh3D-Setup.exe",
   "page": "https://awajeh.site/#app=awajeh-3d",
-  "sha256": "d029ea83436976664c30b4bccf13aee0e21bbc22aeddfd39933eddbf4c7f8772",
-  "size": 76677265,
-  "releasedAt": "2026-10-31",
-  "notes": "The Windows wallpaper now matches your Awajeh 3D wallpaper (UAC prompts, sign-in, desktop without the app)\nPer-monitor stills on multi-monitor setups"
+  "sha256": "863b553a150992fa7e35cae74bbc79771f28f7d9fd665f6c0f267c00b858aeed",
+  "size": 76684148,
+  "releasedAt": "2026-11-02",
+  "notes": "Background music for each wallpaper: pick an MP3/WAV/OGG/FLAC file, it plays and loops with that wallpaper\nMusic player in the app and the tray: play, pause, stop, volume, mute, repeat\nClick on the desktop: interactive wallpapers react to clicks\nNew wallpaper: REAL MADRID – THE ROYAL DRESSING ROOM (interactive, real photos)"
 }
