@@ -36,7 +36,7 @@ window.APPS = [
     kind: "app",
     platforms: ["Windows 10", "Windows 11"],
     price: "Free",
-    version: "1.3.0",
+    version: "1.3.1",
     status: "available",
     logo: "/assets/apps/awajeh-3d/logo.png",
     tagline: "Animated 3D wallpapers for your Windows desktop",

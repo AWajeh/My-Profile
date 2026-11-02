@@ -1,9 +1,9 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.1",
   "url": "https://awajeh.site/downloads/Awajeh3D-Setup.exe",
   "page": "https://awajeh.site/#app=awajeh-3d",
-  "sha256": "863b553a150992fa7e35cae74bbc79771f28f7d9fd665f6c0f267c00b858aeed",
-  "size": 76684148,
+  "sha256": "b85a9ccde83893f9cb83a35047cdc96b8caaa542c88ac2e24b6c04f56f0817d8",
+  "size": 76686039,
   "releasedAt": "2026-11-02",
-  "notes": "Background music for each wallpaper: pick an MP3/WAV/OGG/FLAC file, it plays and loops with that wallpaper\nMusic player in the app and the tray: play, pause, stop, volume, mute, repeat\nClick on the desktop: interactive wallpapers react to clicks\nNew wallpaper: REAL MADRID – THE ROYAL DRESSING ROOM (interactive, real photos)"
+  "notes": "New wallpaper: SANTIAGO BERNABÉU – NIGHT FLIGHT (aerial night view in 3D, with its own music)\nWallpapers can now come with their own music: it plays automatically, and you can replace it or turn it off"
 }
